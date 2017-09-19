@@ -1,0 +1,12 @@
+.classpath
+.project
+.settings/
+logs/
+**/target/
+bin/
+log4j.*
+<<<<<<< HEAD
+application.properties
+=======
+**/application.properties
+>>>>>>> 0140d6f731ae63e83b68858af0bee05085fd1c51
