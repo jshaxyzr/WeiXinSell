@@ -1,0 +1,115 @@
+2017-09-18 16:36:09,240 - Starting Application on MrZhang with PID 9516 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 16:36:09,243 - The following profiles are active: dev
+2017-09-18 16:36:09,387 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@728aec02: startup date [Mon Sep 18 16:36:09 CST 2017]; root of context hierarchy
+2017-09-18 16:36:10,050 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-18 16:36:10,969 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 16:36:11,003 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 16:36:12,821 - Tomcat initialized with port(s): 8081 (http)
+2017-09-18 16:36:13,068 - Root WebApplicationContext: initialization completed in 3685 ms
+2017-09-18 16:36:13,436 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 16:36:13,438 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 16:36:13,442 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 16:36:13,443 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 16:36:13,444 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 16:36:13,444 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 16:36:13,444 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 16:36:14,530 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 16:36:14,561 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 16:36:14,693 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-18 16:36:14,696 - HHH000206: hibernate.properties not found
+2017-09-18 16:36:14,698 - HHH000021: Bytecode provider name : javassist
+2017-09-18 16:36:14,764 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-18 16:36:15,144 - {dataSource-1} inited
+2017-09-18 16:36:15,457 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 16:36:15,953 - HHH000228: Running hbm2ddl schema update
+2017-09-18 16:36:15,979 - HHH000262: Table not found: product_category
+2017-09-18 16:36:15,981 - HHH000262: Table not found: product_category
+2017-09-18 16:36:16,118 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 16:36:16,587 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@728aec02: startup date [Mon Sep 18 16:36:09 CST 2017]; root of context hierarchy
+2017-09-18 16:36:16,723 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 16:36:16,725 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 16:36:16,789 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 16:36:16,789 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 16:36:16,864 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 16:36:17,419 - LiveReload server is running on port 35729
+2017-09-18 16:36:17,518 - Registering beans for JMX exposure on startup
+2017-09-18 16:36:17,520 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-18 16:36:17,523 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-18 16:36:17,535 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-18 16:36:17,537 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-18 16:36:17,631 - Tomcat started on port(s): 8081 (http)
+2017-09-18 16:36:17,642 - Started Application in 8.748 seconds (JVM running for 9.38)
+2017-09-18 16:38:04,465 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@728aec02: startup date [Mon Sep 18 16:36:09 CST 2017]; root of context hierarchy
+2017-09-18 16:38:04,468 - Unregistering JMX-exposed beans on shutdown
+2017-09-18 16:38:04,469 - Unregistering JMX-exposed beans
+2017-09-18 16:38:04,470 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 16:38:04,477 - {dataSource-1} closed
+2017-09-18 16:38:13,673 - Starting Application on MrZhang with PID 7452 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 16:38:13,676 - The following profiles are active: dev
+2017-09-18 16:38:13,800 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@728aec02: startup date [Mon Sep 18 16:38:13 CST 2017]; root of context hierarchy
+2017-09-18 16:38:14,509 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-18 16:38:15,426 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 16:38:15,471 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 16:38:17,280 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 16:38:17,480 - Root WebApplicationContext: initialization completed in 3687 ms
+2017-09-18 16:38:17,886 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 16:38:17,888 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 16:38:17,894 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 16:38:17,895 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 16:38:17,895 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 16:38:17,895 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 16:38:17,895 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 16:38:18,888 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 16:38:18,916 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 16:38:19,049 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-18 16:38:19,051 - HHH000206: hibernate.properties not found
+2017-09-18 16:38:19,053 - HHH000021: Bytecode provider name : javassist
+2017-09-18 16:38:19,115 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-18 16:38:19,542 - {dataSource-1} inited
+2017-09-18 16:38:19,816 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 16:38:20,324 - HHH000228: Running hbm2ddl schema update
+2017-09-18 16:38:20,447 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 16:38:20,926 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@728aec02: startup date [Mon Sep 18 16:38:13 CST 2017]; root of context hierarchy
+2017-09-18 16:38:21,056 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 16:38:21,057 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 16:38:21,098 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 16:38:21,098 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 16:38:21,193 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 16:38:21,771 - LiveReload server is running on port 35729
+2017-09-18 16:38:21,856 - Registering beans for JMX exposure on startup
+2017-09-18 16:38:21,858 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-18 16:38:21,858 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-18 16:38:21,864 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-18 16:38:21,865 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-18 16:38:21,955 - Tomcat started on port(s): 8089 (http)
+2017-09-18 16:38:21,969 - Started Application in 8.633 seconds (JVM running for 9.371)
+2017-09-18 16:40:00,715 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@728aec02: startup date [Mon Sep 18 16:38:13 CST 2017]; root of context hierarchy
+2017-09-18 16:40:00,729 - Unregistering JMX-exposed beans on shutdown
+2017-09-18 16:40:00,730 - Unregistering JMX-exposed beans
+2017-09-18 16:40:00,732 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 16:40:00,746 - {dataSource-1} closed
+2017-09-18 16:40:01,259 - Starting Application on MrZhang with PID 7452 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 16:40:01,259 - The following profiles are active: dev
+2017-09-18 16:40:01,264 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43b53cb7: startup date [Mon Sep 18 16:40:01 CST 2017]; root of context hierarchy
+2017-09-18 16:40:01,876 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 16:40:01,885 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 16:40:02,430 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 16:40:02,467 - Root WebApplicationContext: initialization completed in 1203 ms
+2017-09-18 16:40:02,573 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 16:40:02,574 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 16:40:02,574 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 16:40:02,575 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 16:40:02,575 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 16:40:02,575 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 16:40:02,576 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 16:40:03,354 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 16:40:03,354 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 16:40:03,366 - {dataSource-2} inited
+2017-09-18 16:40:03,375 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 16:40:03,404 - HHH000228: Running hbm2ddl schema update

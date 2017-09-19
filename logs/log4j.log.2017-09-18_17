@@ -1,0 +1,537 @@
+2017-09-18 17:06:16,654 - Starting Application on MrZhang with PID 3548 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 17:06:16,660 - The following profiles are active: dev
+2017-09-18 17:06:16,898 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c8572e8: startup date [Mon Sep 18 17:06:16 CST 2017]; root of context hierarchy
+2017-09-18 17:06:17,765 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-18 17:06:18,643 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:06:18,721 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:06:18,738 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-18 17:06:20,363 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 17:06:20,618 - Root WebApplicationContext: initialization completed in 3724 ms
+2017-09-18 17:06:21,061 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 17:06:21,065 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 17:06:21,070 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 17:06:21,070 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 17:06:21,071 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 17:06:21,071 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 17:06:21,071 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 17:06:22,140 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:06:22,168 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 17:06:22,268 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-18 17:06:22,270 - HHH000206: hibernate.properties not found
+2017-09-18 17:06:22,273 - HHH000021: Bytecode provider name : javassist
+2017-09-18 17:06:22,322 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-18 17:06:22,711 - {dataSource-1} inited
+2017-09-18 17:06:22,981 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 17:06:23,453 - HHH000228: Running hbm2ddl schema update
+2017-09-18 17:06:23,482 - HHH000262: Table not found: product_category
+2017-09-18 17:06:23,484 - HHH000262: Table not found: product_category
+2017-09-18 17:06:23,596 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:06:24,284 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c8572e8: startup date [Mon Sep 18 17:06:16 CST 2017]; root of context hierarchy
+2017-09-18 17:06:24,402 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 17:06:24,404 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 17:06:24,452 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:06:24,452 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:06:24,554 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:06:25,069 - LiveReload server is running on port 35729
+2017-09-18 17:06:25,164 - Registering beans for JMX exposure on startup
+2017-09-18 17:06:25,166 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-18 17:06:25,166 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-18 17:06:25,174 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-18 17:06:25,177 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-18 17:06:25,261 - Tomcat started on port(s): 8089 (http)
+2017-09-18 17:06:25,266 - Started Application in 8.954 seconds (JVM running for 9.784)
+2017-09-18 17:10:11,177 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c8572e8: startup date [Mon Sep 18 17:06:16 CST 2017]; root of context hierarchy
+2017-09-18 17:10:11,183 - Unregistering JMX-exposed beans on shutdown
+2017-09-18 17:10:11,185 - Unregistering JMX-exposed beans
+2017-09-18 17:10:11,187 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:10:11,198 - {dataSource-1} closed
+2017-09-18 17:10:11,960 - Starting Application on MrZhang with PID 3548 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 17:10:11,960 - The following profiles are active: dev
+2017-09-18 17:10:11,964 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7235521d: startup date [Mon Sep 18 17:10:11 CST 2017]; root of context hierarchy
+2017-09-18 17:10:12,537 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:10:12,552 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:10:12,555 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-18 17:10:12,843 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 17:10:12,881 - Root WebApplicationContext: initialization completed in 916 ms
+2017-09-18 17:10:12,946 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 17:10:12,947 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 17:10:12,948 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 17:10:12,948 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 17:10:12,949 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 17:10:12,949 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 17:10:12,949 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 17:10:13,614 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:10:13,615 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 17:10:13,627 - {dataSource-2} inited
+2017-09-18 17:10:13,636 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 17:10:13,666 - HHH000228: Running hbm2ddl schema update
+2017-09-18 17:10:13,715 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:10:13,894 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7235521d: startup date [Mon Sep 18 17:10:11 CST 2017]; root of context hierarchy
+2017-09-18 17:10:13,908 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 17:10:13,909 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 17:10:13,919 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:10:13,920 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:10:13,933 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:10:14,068 - LiveReload server is running on port 35729
+2017-09-18 17:10:14,167 - Registering beans for JMX exposure on startup
+2017-09-18 17:10:14,168 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-18 17:10:14,169 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-18 17:10:14,177 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-18 17:10:14,178 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-18 17:10:14,203 - Tomcat started on port(s): 8089 (http)
+2017-09-18 17:10:14,208 - Started Application in 2.424 seconds (JVM running for 238.725)
+2017-09-18 17:11:29,105 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7235521d: startup date [Mon Sep 18 17:10:11 CST 2017]; root of context hierarchy
+2017-09-18 17:11:29,115 - Unregistering JMX-exposed beans on shutdown
+2017-09-18 17:11:29,117 - Unregistering JMX-exposed beans
+2017-09-18 17:11:29,119 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:11:29,125 - {dataSource-2} closed
+2017-09-18 17:11:29,561 - Starting Application on MrZhang with PID 3548 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 17:11:29,561 - The following profiles are active: dev
+2017-09-18 17:11:29,565 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb65eb0: startup date [Mon Sep 18 17:11:29 CST 2017]; root of context hierarchy
+2017-09-18 17:11:30,014 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:11:30,026 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:11:30,030 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-18 17:11:30,292 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 17:11:30,334 - Root WebApplicationContext: initialization completed in 769 ms
+2017-09-18 17:11:30,401 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 17:11:30,403 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 17:11:30,405 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 17:11:30,405 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 17:11:30,407 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 17:11:30,411 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 17:11:30,411 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 17:11:30,901 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:11:30,902 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 17:11:30,919 - {dataSource-3} inited
+2017-09-18 17:11:30,926 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 17:11:30,950 - HHH000228: Running hbm2ddl schema update
+2017-09-18 17:11:31,005 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:11:31,196 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb65eb0: startup date [Mon Sep 18 17:11:29 CST 2017]; root of context hierarchy
+2017-09-18 17:11:31,207 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 17:11:31,207 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 17:11:31,220 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:11:31,220 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:11:31,237 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:11:31,319 - LiveReload server is running on port 35729
+2017-09-18 17:11:31,384 - Registering beans for JMX exposure on startup
+2017-09-18 17:11:31,384 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-18 17:11:31,385 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-18 17:11:31,387 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-18 17:11:31,389 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-18 17:11:31,401 - Tomcat started on port(s): 8089 (http)
+2017-09-18 17:11:31,410 - Started Application in 1.899 seconds (JVM running for 315.928)
+2017-09-18 17:15:31,687 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb65eb0: startup date [Mon Sep 18 17:11:29 CST 2017]; root of context hierarchy
+2017-09-18 17:15:31,695 - Unregistering JMX-exposed beans on shutdown
+2017-09-18 17:15:31,697 - Unregistering JMX-exposed beans
+2017-09-18 17:15:31,699 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:15:31,705 - {dataSource-3} closed
+2017-09-18 17:15:32,268 - Starting Application on MrZhang with PID 3548 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 17:15:32,269 - The following profiles are active: dev
+2017-09-18 17:15:32,272 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7603aa90: startup date [Mon Sep 18 17:15:32 CST 2017]; root of context hierarchy
+2017-09-18 17:15:32,882 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:15:32,900 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:15:32,905 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-18 17:15:33,191 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 17:15:33,228 - Root WebApplicationContext: initialization completed in 956 ms
+2017-09-18 17:15:33,279 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 17:15:33,279 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 17:15:33,280 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 17:15:33,280 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 17:15:33,280 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 17:15:33,281 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 17:15:33,281 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 17:15:33,818 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:15:33,819 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 17:15:33,830 - {dataSource-4} inited
+2017-09-18 17:15:33,842 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 17:15:33,869 - HHH000228: Running hbm2ddl schema update
+2017-09-18 17:15:33,904 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:15:34,074 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7603aa90: startup date [Mon Sep 18 17:15:32 CST 2017]; root of context hierarchy
+2017-09-18 17:15:34,087 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 17:15:34,088 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 17:15:34,099 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:15:34,099 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:15:34,122 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:15:34,207 - LiveReload server is running on port 35729
+2017-09-18 17:15:34,303 - Registering beans for JMX exposure on startup
+2017-09-18 17:15:34,304 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-18 17:15:34,304 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-18 17:15:34,310 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-18 17:15:34,326 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-18 17:15:34,350 - Tomcat started on port(s): 8089 (http)
+2017-09-18 17:15:34,355 - Started Application in 2.176 seconds (JVM running for 558.872)
+2017-09-18 17:20:38,808 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7603aa90: startup date [Mon Sep 18 17:15:32 CST 2017]; root of context hierarchy
+2017-09-18 17:20:38,810 - Unregistering JMX-exposed beans on shutdown
+2017-09-18 17:20:38,810 - Unregistering JMX-exposed beans
+2017-09-18 17:20:38,811 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:20:38,813 - {dataSource-4} closed
+2017-09-18 17:20:39,271 - Starting Application on MrZhang with PID 3548 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 17:20:39,272 - The following profiles are active: dev
+2017-09-18 17:20:39,277 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14f7ce3e: startup date [Mon Sep 18 17:20:39 CST 2017]; root of context hierarchy
+2017-09-18 17:20:39,813 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:20:39,824 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:20:39,828 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-18 17:20:40,067 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 17:20:40,095 - Root WebApplicationContext: initialization completed in 818 ms
+2017-09-18 17:20:40,145 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 17:20:40,145 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 17:20:40,145 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 17:20:40,146 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 17:20:40,146 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 17:20:40,146 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 17:20:40,146 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 17:20:40,582 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:20:40,582 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 17:20:40,592 - {dataSource-5} inited
+2017-09-18 17:20:40,602 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 17:20:40,626 - HHH000228: Running hbm2ddl schema update
+2017-09-18 17:20:40,657 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:20:40,811 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14f7ce3e: startup date [Mon Sep 18 17:20:39 CST 2017]; root of context hierarchy
+2017-09-18 17:20:40,818 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 17:20:40,819 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 17:20:40,828 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:20:40,828 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:20:40,845 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:20:40,923 - LiveReload server is running on port 35729
+2017-09-18 17:20:40,982 - Registering beans for JMX exposure on startup
+2017-09-18 17:20:40,983 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-18 17:20:40,984 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-18 17:20:40,992 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-18 17:20:40,993 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-18 17:20:41,005 - Tomcat started on port(s): 8089 (http)
+2017-09-18 17:20:41,008 - Started Application in 1.812 seconds (JVM running for 865.526)
+2017-09-18 17:40:32,093 - Starting Application on MrZhang with PID 2060 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 17:40:32,097 - The following profiles are active: dev
+2017-09-18 17:40:32,225 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@728aec02: startup date [Mon Sep 18 17:40:32 CST 2017]; root of context hierarchy
+2017-09-18 17:40:33,033 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-18 17:40:33,858 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:40:33,927 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:40:33,955 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-18 17:40:35,603 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 17:40:35,810 - Root WebApplicationContext: initialization completed in 3590 ms
+2017-09-18 17:40:36,261 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 17:40:36,265 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 17:40:36,270 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 17:40:36,270 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 17:40:36,271 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 17:40:36,271 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 17:40:36,271 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 17:40:37,295 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:40:37,321 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 17:40:37,452 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-18 17:40:37,453 - HHH000206: hibernate.properties not found
+2017-09-18 17:40:37,456 - HHH000021: Bytecode provider name : javassist
+2017-09-18 17:40:37,750 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-18 17:40:37,926 - {dataSource-1} inited
+2017-09-18 17:40:38,244 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 17:40:38,454 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: cn.MrZhang.model.ProductInfo
+2017-09-18 17:40:38,460 - {dataSource-1} closed
+2017-09-18 17:40:38,483 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-18 17:40:38,488 - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: cn.MrZhang.model.ProductInfo
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at cn.MrZhang.Application.main(Application.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: cn.MrZhang.model.ProductInfo
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:265)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:717)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:245)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:222)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:265)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 21 more
+2017-09-18 17:41:17,147 - Starting Application on MrZhang with PID 8844 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 17:41:17,149 - The following profiles are active: dev
+2017-09-18 17:41:17,285 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ffbb854: startup date [Mon Sep 18 17:41:17 CST 2017]; root of context hierarchy
+2017-09-18 17:41:17,975 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-18 17:41:18,835 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:41:18,894 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:41:18,917 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-18 17:41:20,570 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 17:41:20,775 - Root WebApplicationContext: initialization completed in 3494 ms
+2017-09-18 17:41:21,211 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 17:41:21,213 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 17:41:21,217 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 17:41:21,218 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 17:41:21,218 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 17:41:21,219 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 17:41:21,219 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 17:41:22,321 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:41:22,344 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 17:41:22,465 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-18 17:41:22,467 - HHH000206: hibernate.properties not found
+2017-09-18 17:41:22,470 - HHH000021: Bytecode provider name : javassist
+2017-09-18 17:41:22,531 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-18 17:41:22,885 - {dataSource-1} inited
+2017-09-18 17:41:23,176 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 17:41:23,733 - HHH000228: Running hbm2ddl schema update
+2017-09-18 17:41:23,807 - HHH000262: Table not found: product_info
+2017-09-18 17:41:23,809 - HHH000262: Table not found: product_info
+2017-09-18 17:41:23,829 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2017-09-18 17:41:23,833 - {dataSource-1} closed
+2017-09-18 17:41:23,872 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-18 17:41:23,885 - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at cn.MrZhang.Application.main(Application.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:954)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:882)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 21 more
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Unable to execute schema management to JDBC target [create table product_info (product_id varchar(255) not null auto_increment, category_type integer, created_time datetime, product_description varchar(255), product_icon varchar(255), product_name varchar(255), product_price decimal(19,2), product_status integer, product_stock integer, update_time datetime, primary key (product_id))]
+	at org.hibernate.tool.schema.internal.TargetDatabaseImpl.accept(TargetDatabaseImpl.java:59)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.applySqlString(SchemaMigratorImpl.java:431)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.applySqlStrings(SchemaMigratorImpl.java:420)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.createTable(SchemaMigratorImpl.java:236)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.doMigrationToTargets(SchemaMigratorImpl.java:167)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.doMigration(SchemaMigratorImpl.java:60)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:134)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:101)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:472)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:444)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:879)
+	... 27 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Incorrect column specifier for column 'product_id'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2497)
+	at com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1540)
+	at com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2595)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1468)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeUpdate(FilterChainImpl.java:2488)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeUpdate(FilterAdapter.java:2508)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeUpdate(FilterEventAdapter.java:327)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeUpdate(FilterChainImpl.java:2486)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeUpdate(StatementProxyImpl.java:241)
+	at com.alibaba.druid.pool.DruidPooledStatement.executeUpdate(DruidPooledStatement.java:243)
+	at org.hibernate.tool.schema.internal.TargetDatabaseImpl.accept(TargetDatabaseImpl.java:56)
+	... 37 more
+2017-09-18 17:43:28,082 - Starting Application on MrZhang with PID 10588 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 17:43:28,084 - The following profiles are active: dev
+2017-09-18 17:43:28,232 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@504f7a17: startup date [Mon Sep 18 17:43:28 CST 2017]; root of context hierarchy
+2017-09-18 17:43:28,883 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-18 17:43:29,840 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:43:29,905 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:43:29,928 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-18 17:43:31,740 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 17:43:31,979 - Root WebApplicationContext: initialization completed in 3754 ms
+2017-09-18 17:43:32,442 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 17:43:32,445 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 17:43:32,450 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 17:43:32,450 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 17:43:32,451 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 17:43:32,451 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 17:43:32,451 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 17:43:33,570 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:43:33,596 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 17:43:33,739 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-18 17:43:33,742 - HHH000206: hibernate.properties not found
+2017-09-18 17:43:33,745 - HHH000021: Bytecode provider name : javassist
+2017-09-18 17:43:33,811 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-18 17:43:34,302 - {dataSource-1} inited
+2017-09-18 17:43:34,609 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 17:43:35,171 - HHH000228: Running hbm2ddl schema update
+2017-09-18 17:43:35,264 - HHH000262: Table not found: product_info
+2017-09-18 17:43:35,265 - HHH000262: Table not found: product_info
+2017-09-18 17:43:35,298 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2017-09-18 17:43:35,303 - {dataSource-1} closed
+2017-09-18 17:43:35,347 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-18 17:43:35,353 - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at cn.MrZhang.Application.main(Application.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:954)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:882)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 21 more
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Unable to execute schema management to JDBC target [create table product_info (product_id varchar(255) not null auto_increment, category_type integer, created_time datetime, product_description varchar(255), product_icon varchar(255), product_name varchar(255), product_price decimal(19,2), product_status integer, product_stock integer, update_time datetime, primary key (product_id))]
+	at org.hibernate.tool.schema.internal.TargetDatabaseImpl.accept(TargetDatabaseImpl.java:59)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.applySqlString(SchemaMigratorImpl.java:431)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.applySqlStrings(SchemaMigratorImpl.java:420)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.createTable(SchemaMigratorImpl.java:236)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.doMigrationToTargets(SchemaMigratorImpl.java:167)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.doMigration(SchemaMigratorImpl.java:60)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:134)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:101)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:472)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:444)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:879)
+	... 27 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Incorrect column specifier for column 'product_id'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2497)
+	at com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1540)
+	at com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2595)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1468)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeUpdate(FilterChainImpl.java:2488)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeUpdate(FilterAdapter.java:2508)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeUpdate(FilterEventAdapter.java:327)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeUpdate(FilterChainImpl.java:2486)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeUpdate(StatementProxyImpl.java:241)
+	at com.alibaba.druid.pool.DruidPooledStatement.executeUpdate(DruidPooledStatement.java:243)
+	at org.hibernate.tool.schema.internal.TargetDatabaseImpl.accept(TargetDatabaseImpl.java:56)
+	... 37 more
+2017-09-18 17:44:40,488 - Starting Application on MrZhang with PID 10200 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-18 17:44:40,490 - The following profiles are active: dev
+2017-09-18 17:44:40,598 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ffbb854: startup date [Mon Sep 18 17:44:40 CST 2017]; root of context hierarchy
+2017-09-18 17:44:41,359 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-18 17:44:42,196 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:44:42,258 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-18 17:44:42,280 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-18 17:44:43,902 - Tomcat initialized with port(s): 8089 (http)
+2017-09-18 17:44:44,106 - Root WebApplicationContext: initialization completed in 3511 ms
+2017-09-18 17:44:44,573 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 17:44:44,576 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-18 17:44:44,581 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 17:44:44,581 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 17:44:44,582 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 17:44:44,582 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 17:44:44,582 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-18 17:44:45,654 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:44:45,681 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-18 17:44:45,812 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-18 17:44:45,814 - HHH000206: hibernate.properties not found
+2017-09-18 17:44:45,819 - HHH000021: Bytecode provider name : javassist
+2017-09-18 17:44:45,880 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-18 17:44:46,268 - {dataSource-1} inited
+2017-09-18 17:44:46,564 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-18 17:44:47,073 - HHH000228: Running hbm2ddl schema update
+2017-09-18 17:44:47,155 - HHH000262: Table not found: product_info
+2017-09-18 17:44:47,157 - HHH000262: Table not found: product_info
+2017-09-18 17:44:47,323 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-18 17:44:48,187 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ffbb854: startup date [Mon Sep 18 17:44:40 CST 2017]; root of context hierarchy
+2017-09-18 17:44:48,303 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 17:44:48,306 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 17:44:48,365 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:44:48,365 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:44:48,460 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 17:44:49,009 - LiveReload server is running on port 35729
+2017-09-18 17:44:49,100 - Registering beans for JMX exposure on startup
+2017-09-18 17:44:49,102 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-18 17:44:49,103 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-18 17:44:49,111 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-18 17:44:49,113 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-18 17:44:49,220 - Tomcat started on port(s): 8089 (http)
+2017-09-18 17:44:49,234 - Started Application in 9.088 seconds (JVM running for 9.713)
