@@ -4,23 +4,21 @@ import lombok.Getter;
 
 /**
  * 
- * Title:ProductStatusEnum
- * @Description: TODO 商品状态枚举
+ * Title:OrderStatusEnum
+ * @Description: TODO 订单状态枚举
  * @author MrZhang
- * @date 2017年9月19日 下午2:12:52 
+ * @date 2017年9月19日 下午2:13:12 
  * @version V1.0
  */
 @Getter
-public enum ProductStatusEnum {
+public enum OrderStatusEnum {
 
-    UP(0, "在售"),
-
-    Down(1, "下架");
+    NEW(0, "新订单"), CANCEL(2, "取消"), FINSHED(1, "下架");
     private Integer code;
 
     private String message;
 
-    private ProductStatusEnum(Integer code, String message) {
+    private OrderStatusEnum(Integer code, String message) {
         // TODO Auto-generated constructor stub
         this.code = code;
         this.message = message;

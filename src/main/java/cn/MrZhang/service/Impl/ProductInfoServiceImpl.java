@@ -6,8 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import cn.MrZhang.dto.CartDTO;
 import cn.MrZhang.enums.ProductStatusEnum;
+import cn.MrZhang.exception.ServiceException;
 import cn.MrZhang.model.ProductInfo;
 import cn.MrZhang.repository.ProductInfoRepository;
 import cn.MrZhang.service.ProductInfoService;
@@ -39,6 +42,34 @@ public class ProductInfoServiceImpl implements ProductInfoService {
     public ProductInfo save(ProductInfo productInfo) {
         // TODO Auto-generated method stub
         return productInfoRepository.save(productInfo);
+    }
+
+    @Override
+    public void increaseStock(List<CartDTO> cartDTOs) {
+        // TODO Auto-generated method stub
+
+    }
+
+    @Override
+    @Transactional
+    public void decreaseStock(List<CartDTO> cartDTOs) {
+        // TODO Auto-generated method stub
+
+        for (CartDTO cartDTO : cartDTOs) {
+            ProductInfo productInfo = productInfoRepository.findOne(cartDTO.getProductId());
+            if (productInfo == null) {
+                throw new ServiceException("商品不存在");
+            }
+            Integer result = productInfo.getProductStock() - cartDTO.getProductQuantity();
+            if (result < 0) {
+                throw new ServiceException("库存不足！");
+            }
+            // 设置结果为新库存
+            productInfo.setProductStock(result);
+            productInfoRepository.save(productInfo);
+
+        }
+
     }
 
 }

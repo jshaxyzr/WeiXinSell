@@ -13,6 +13,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.extern.log4j.Log4j;
 
+/**
+ * 
+ * Title:ProductCategory
+ * @Description: TODO 商品类目
+ * @author MrZhang
+ * @date 2017年9月19日 下午2:33:36 
+ * @version V1.0
+ */
 @Entity
 @Data
 @Log4j

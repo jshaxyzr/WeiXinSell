@@ -11,6 +11,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * 
+ * Title:ProductInfo
+ * @Description: TODO 商品详情
+ * @author MrZhang
+ * @date 2017年9月19日 下午2:34:13 
+ * @version V1.0
+ */
 @Entity
 @Data
 @AllArgsConstructor

@@ -4,19 +4,18 @@ import cn.MrZhang.vo.ResultVo;
 
 public class ResultVoUtil {
 
-    public static ResultVo success(Object object) {
-        ResultVo resultVo = new ResultVo<>();
+    public static ResultVo<Object> success(Object object) {
+        ResultVo<Object> resultVo = new ResultVo<>();
         resultVo.setCode(200);
         resultVo.setMsg("成功");
         resultVo.setData(object);
         return resultVo;
     }
 
-    public static ResultVo failed(Object object, String msg) {
-        ResultVo resultVo = new ResultVo<>();
-        resultVo.setCode(400);
+    public static ResultVo<Object> failed(Integer code, String msg) {
+        ResultVo<Object> resultVo = new ResultVo<>();
+        resultVo.setCode(code);
         resultVo.setMsg(msg);
-        resultVo.setData(object);
         return resultVo;
     }
 }
