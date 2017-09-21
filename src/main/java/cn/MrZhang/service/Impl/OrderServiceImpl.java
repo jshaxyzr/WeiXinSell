@@ -97,11 +97,11 @@ public class OrderServiceImpl implements OrderService {
 
         OrderMaster orderMaster = orderMasterRepository.findOne(orderId);
         if (orderMaster == null) {
-            throw new ServiceException("商品不存在");
+            throw new ServiceException("订单不存在");
         }
         List<OrderDetail> orderDetails = orderDetailRepository.findByOrderId(orderId);
         if (CollectionUtils.isEmpty(orderDetails)) {
-            throw new ServiceException("商品不存在");
+            throw new ServiceException("订单购物车为空");
         }
         OrderDTO orderDTO = new OrderDTO();
         BeanUtils.copyProperties(orderMaster, orderDTO);
@@ -126,7 +126,7 @@ public class OrderServiceImpl implements OrderService {
     public OrderDTO cancel(OrderDTO orderDTO) {
         OrderMaster orderMaster = new OrderMaster();
         // 1、判断订单状态
-        if (orderDTO.getOrderStatus().equals(OrderStatusEnum.NEW.getCode())) {
+        if (!orderDTO.getOrderStatus().equals(OrderStatusEnum.NEW.getCode())) {
             // orderId={},orderStatus={} 占位符方式 传统的是进行string 拼接"orderId="+orderId+"orderStatus="+...
             log.error(MessageFormat.format("【取消订单】订单状态不正确，orderId={0},orderStatus={1}", orderDTO.getOrderId(),
                     orderDTO.getOrderStatus()));

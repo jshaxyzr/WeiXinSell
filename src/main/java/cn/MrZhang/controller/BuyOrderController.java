@@ -24,6 +24,7 @@ import cn.MrZhang.converter.OrderForm2OrderDTO;
 import cn.MrZhang.dto.OrderDTO;
 import cn.MrZhang.exception.ServiceException;
 import cn.MrZhang.form.OrderForm;
+import cn.MrZhang.service.BuyerService;
 import cn.MrZhang.service.OrderService;
 import cn.MrZhang.util.ResultVoUtil;
 import cn.MrZhang.vo.ResultVo;
@@ -44,6 +45,8 @@ public class BuyOrderController {
 
     @Autowired
     private OrderService orderService;
+    @Autowired
+    private BuyerService buyerService;
 
     // 创建订单
     @PostMapping("/create")
@@ -85,5 +88,22 @@ public class BuyOrderController {
 
     // 订单详情
 
+    @GetMapping("/detail")
+    public ResultVo<List<OrderDTO>> detail(@RequestParam("openid") String openid, @RequestParam("orderId") String orderId) {
+        // // TODO 不安全做法 需要后期改进 防止越权访问 （任何人传个orderId都可以查询）
+        // OrderDTO orderDTO = orderService.findOne(orderId);
+        OrderDTO orderDTO = buyerService.findOrderOne(openid, orderId);
+
+        return ResultVoUtil.success(orderDTO);
+    }
+
     // 取消订单
+    @PostMapping("/cancel")
+    public ResultVo<List<OrderDTO>> cancel(@RequestParam("openid") String openid, @RequestParam("orderId") String orderId) {
+        // TODO 不安全做法 需要后期改进 防止越权访问 （任何人传个orderId都可以查询）
+        // OrderDTO orderDTO = orderService.findOne(orderId);
+        // OrderDTO result = orderService.cancel(orderDTO);
+        OrderDTO result = buyerService.cancelOrder(openid, orderId);
+        return ResultVoUtil.success(result);
+    }
 }
