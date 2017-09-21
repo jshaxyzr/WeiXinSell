@@ -27,4 +27,6 @@ public interface OrderService {
 
     OrderDTO paid(OrderDTO orderDTO);
 
+    /** 完结订单  */
+    OrderDTO finish(OrderDTO orderDTO);
 }

@@ -7,6 +7,7 @@ import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 
 import cn.MrZhang.enums.OrderStatusEnum;
@@ -27,7 +28,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@DynamicUpdate // 该注解有 true false 2个属性 true 只更新我们修改过的字段 默认false 此处就是要
+@DynamicUpdate // 该注解有 true false 2个属性 true 只更新我们修改过的字段
+@DynamicInsert // 表示insert对象的时候,生成动态的insert语句,如果这个字段的值是null就不会加入到insert语句当中.默认false(注解后不指定值默认为true)。
 public class OrderMaster implements Serializable {
     @Id
     private String orderId;

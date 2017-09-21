@@ -22,10 +22,11 @@ public class JsonUtils {
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
     static {
-        MAPPER.configure(SerializationFeature.WRITE_NULL_MAP_VALUES, false);
-        MAPPER.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        // enum转换为数值
-        // mapper.configure(SerializationFeature.WRITE_ENUMS_USING_INDEX,true);
+        MAPPER.configure(SerializationFeature.WRITE_NULL_MAP_VALUES, false);// 设置map值为NULL时 不转换
+        MAPPER.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);// 禁止遇到空原始类型时抛出异常，用默认值null代替
+        // 也可以在配置文件中配置
+        // spring.jackson.deserialization.=true false spring.jackson.serialization=true
+
     }
 
     private JsonUtils() {

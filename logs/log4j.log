@@ -1,50 +1,421 @@
-2017-09-19 14:57:41,534 - Starting Application on MrZhang with PID 6684 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
-2017-09-19 14:57:41,538 - The following profiles are active: dev
-2017-09-19 14:57:41,722 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5390a608: startup date [Tue Sep 19 14:57:41 CST 2017]; root of context hierarchy
-2017-09-19 14:57:42,685 - HV000001: Hibernate Validator 5.3.5.Final
-2017-09-19 14:57:44,317 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-19 14:57:44,488 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-19 14:57:44,530 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
-2017-09-19 14:57:44,533 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
-2017-09-19 14:57:44,537 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
-2017-09-19 14:57:44,538 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
-2017-09-19 14:57:47,447 - Tomcat initialized with port(s): 8089 (http)
-2017-09-19 14:57:47,767 - Root WebApplicationContext: initialization completed in 6049 ms
-2017-09-19 14:57:48,364 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-09-19 14:57:48,368 - Mapping servlet: 'statViewServlet' to [/druid/*]
-2017-09-19 14:57:48,388 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-09-19 14:57:48,389 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-09-19 14:57:48,390 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-09-19 14:57:48,391 - Mapping filter: 'requestContextFilter' to: [/*]
-2017-09-19 14:57:48,391 - Mapping filter: 'webStatFilter' to urls: [/*]
-2017-09-19 14:57:50,131 - Building JPA container EntityManagerFactory for persistence unit 'default'
-2017-09-19 14:57:50,184 - HHH000204: Processing PersistenceUnitInfo [
+2017-09-20 17:02:08,746 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@504f7a17: startup date [Wed Sep 20 16:56:21 CST 2017]; root of context hierarchy
+2017-09-20 17:02:08,752 - Unregistering JMX-exposed beans on shutdown
+2017-09-20 17:02:08,754 - Unregistering JMX-exposed beans
+2017-09-20 17:02:08,762 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:02:08,789 - {dataSource-1} closed
+2017-09-20 17:02:09,683 - Starting Application on MrZhang with PID 4916 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-20 17:02:09,710 - The following profiles are active: dev
+2017-09-20 17:02:09,720 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26f39ad6: startup date [Wed Sep 20 17:02:09 CST 2017]; root of context hierarchy
+2017-09-20 17:02:12,433 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:02:13,262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:02:13,414 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-20 17:02:13,415 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-20 17:02:13,418 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-20 17:02:13,419 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-20 17:02:15,026 - Tomcat initialized with port(s): 8089 (http)
+2017-09-20 17:02:15,123 - Root WebApplicationContext: initialization completed in 5403 ms
+2017-09-20 17:02:15,421 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 17:02:15,423 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-20 17:02:15,423 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 17:02:15,424 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-20 17:02:17,960 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:02:17,961 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2017-09-19 14:57:50,695 - HHH000412: Hibernate Core {5.0.12.Final}
-2017-09-19 14:57:50,698 - HHH000206: hibernate.properties not found
-2017-09-19 14:57:50,700 - HHH000021: Bytecode provider name : javassist
-2017-09-19 14:57:50,820 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2017-09-19 14:57:51,295 - {dataSource-1} inited
-2017-09-19 14:57:51,883 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2017-09-19 14:57:52,920 - HHH000228: Running hbm2ddl schema update
-2017-09-19 14:57:52,955 - HHH000262: Table not found: order_detail
-2017-09-19 14:57:52,957 - HHH000262: Table not found: order_detail
-2017-09-19 14:57:53,024 - HHH000262: Table not found: order_master
-2017-09-19 14:57:53,026 - HHH000262: Table not found: order_master
-2017-09-19 14:57:53,275 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2017-09-19 14:57:54,990 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5390a608: startup date [Tue Sep 19 14:57:41 CST 2017]; root of context hierarchy
-2017-09-19 14:57:55,418 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
-2017-09-19 14:57:55,430 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-09-19 14:57:55,431 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-09-19 14:57:55,637 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-19 14:57:55,637 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-19 14:57:55,865 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-19 14:57:57,131 - LiveReload server is running on port 35729
-2017-09-19 14:57:57,692 - Registering beans for JMX exposure on startup
-2017-09-19 14:57:57,695 - Bean with name 'statFilter' has been autodetected for JMX exposure
-2017-09-19 14:57:57,695 - Bean with name 'dataSource' has been autodetected for JMX exposure
-2017-09-19 14:57:57,713 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
-2017-09-19 14:57:57,715 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
-2017-09-19 14:57:57,998 - Tomcat started on port(s): 8089 (http)
-2017-09-19 14:57:58,015 - Started Application in 16.952 seconds (JVM running for 18.021)
+2017-09-20 17:02:18,055 - {dataSource-2} inited
+2017-09-20 17:02:18,070 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-20 17:02:18,362 - HHH000228: Running hbm2ddl schema update
+2017-09-20 17:02:18,590 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:02:19,409 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-20 17:02:19,410 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-20 17:02:19,411 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-20 17:02:19,424 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 17:02:19,426 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 17:02:19,611 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26f39ad6: startup date [Wed Sep 20 17:02:09 CST 2017]; root of context hierarchy
+2017-09-20 17:02:19,674 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-20 17:02:20,432 - LiveReload server is running on port 35729
+2017-09-20 17:02:20,680 - Registering beans for JMX exposure on startup
+2017-09-20 17:02:20,682 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-20 17:02:20,682 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-20 17:02:20,711 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-20 17:02:20,712 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-20 17:02:20,874 - Tomcat started on port(s): 8089 (http)
+2017-09-20 17:02:20,984 - Started Application in 11.42 seconds (JVM running for 361.969)
+2017-09-20 17:03:56,957 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26f39ad6: startup date [Wed Sep 20 17:02:09 CST 2017]; root of context hierarchy
+2017-09-20 17:03:56,959 - Unregistering JMX-exposed beans on shutdown
+2017-09-20 17:03:56,960 - Unregistering JMX-exposed beans
+2017-09-20 17:03:56,962 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:03:56,969 - {dataSource-2} closed
+2017-09-20 17:03:57,513 - Starting Application on MrZhang with PID 4916 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-20 17:03:57,513 - The following profiles are active: dev
+2017-09-20 17:03:57,518 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1183b12e: startup date [Wed Sep 20 17:03:57 CST 2017]; root of context hierarchy
+2017-09-20 17:03:58,223 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:03:58,413 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:03:58,465 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-20 17:03:58,466 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-20 17:03:58,467 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-20 17:03:58,467 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-20 17:03:58,879 - Tomcat initialized with port(s): 8089 (http)
+2017-09-20 17:03:58,918 - Root WebApplicationContext: initialization completed in 1401 ms
+2017-09-20 17:03:59,009 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 17:03:59,009 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-20 17:03:59,010 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 17:03:59,010 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-20 17:03:59,669 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:03:59,670 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-20 17:03:59,742 - {dataSource-3} inited
+2017-09-20 17:03:59,756 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-20 17:03:59,867 - HHH000228: Running hbm2ddl schema update
+2017-09-20 17:04:00,083 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:10:27,916 - Starting Application on MrZhang with PID 10152 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-20 17:10:27,920 - The following profiles are active: dev
+2017-09-20 17:10:28,166 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@629960e3: startup date [Wed Sep 20 17:10:28 CST 2017]; root of context hierarchy
+2017-09-20 17:10:28,992 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-20 17:10:30,567 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:10:30,795 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:10:30,939 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-20 17:10:30,940 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-20 17:10:30,945 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-20 17:10:30,946 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-20 17:10:33,296 - Tomcat initialized with port(s): 8089 (http)
+2017-09-20 17:10:33,751 - Root WebApplicationContext: initialization completed in 5590 ms
+2017-09-20 17:10:34,428 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 17:10:34,430 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-20 17:10:34,435 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 17:10:34,436 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-20 17:10:36,434 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:10:36,466 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-20 17:10:36,701 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-20 17:10:36,704 - HHH000206: hibernate.properties not found
+2017-09-20 17:10:36,706 - HHH000021: Bytecode provider name : javassist
+2017-09-20 17:10:37,086 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-20 17:10:37,373 - {dataSource-1} inited
+2017-09-20 17:10:37,710 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-20 17:10:38,593 - HHH000228: Running hbm2ddl schema update
+2017-09-20 17:10:38,943 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:10:40,085 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-20 17:10:40,087 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-20 17:10:40,090 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-20 17:10:40,097 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 17:10:40,098 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 17:10:40,455 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@629960e3: startup date [Wed Sep 20 17:10:28 CST 2017]; root of context hierarchy
+2017-09-20 17:10:40,649 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-20 17:10:42,321 - LiveReload server is running on port 35729
+2017-09-20 17:10:42,463 - Registering beans for JMX exposure on startup
+2017-09-20 17:10:42,472 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-20 17:10:42,473 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-20 17:10:42,491 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-20 17:10:42,494 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-20 17:10:42,630 - Tomcat started on port(s): 8089 (http)
+2017-09-20 17:10:42,642 - Started Application in 15.189 seconds (JVM running for 16.146)
+2017-09-20 17:11:36,785 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-20 17:11:36,813 - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2017-09-20 17:11:37,132 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-20 17:12:06,328 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@629960e3: startup date [Wed Sep 20 17:10:28 CST 2017]; root of context hierarchy
+2017-09-20 17:12:06,329 - Unregistering JMX-exposed beans on shutdown
+2017-09-20 17:12:06,330 - Unregistering JMX-exposed beans
+2017-09-20 17:12:06,333 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:12:06,342 - {dataSource-1} closed
+2017-09-20 17:12:06,891 - Starting Application on MrZhang with PID 10152 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-20 17:12:06,891 - The following profiles are active: dev
+2017-09-20 17:12:06,894 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e8b6eb4: startup date [Wed Sep 20 17:12:06 CST 2017]; root of context hierarchy
+2017-09-20 17:12:07,850 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:12:08,022 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:12:08,146 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-20 17:12:08,147 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-20 17:12:08,148 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-20 17:12:08,149 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-20 17:12:08,612 - Tomcat initialized with port(s): 8089 (http)
+2017-09-20 17:12:08,656 - Root WebApplicationContext: initialization completed in 1762 ms
+2017-09-20 17:12:08,739 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 17:12:08,741 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-20 17:12:08,741 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 17:12:08,742 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-20 17:12:09,699 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:12:09,699 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-20 17:12:09,722 - {dataSource-2} inited
+2017-09-20 17:12:09,733 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-20 17:12:09,885 - HHH000228: Running hbm2ddl schema update
+2017-09-20 17:12:10,056 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:12:10,477 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-20 17:12:10,477 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-20 17:12:10,478 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-20 17:12:10,480 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 17:12:10,480 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 17:12:10,601 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e8b6eb4: startup date [Wed Sep 20 17:12:06 CST 2017]; root of context hierarchy
+2017-09-20 17:12:10,632 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-20 17:12:10,934 - LiveReload server is running on port 35729
+2017-09-20 17:12:11,082 - Registering beans for JMX exposure on startup
+2017-09-20 17:12:11,083 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-20 17:12:11,083 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-20 17:12:11,090 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-20 17:12:11,091 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-20 17:12:11,128 - Tomcat started on port(s): 8089 (http)
+2017-09-20 17:12:11,131 - Started Application in 4.368 seconds (JVM running for 104.634)
+2017-09-20 17:22:12,741 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e8b6eb4: startup date [Wed Sep 20 17:12:06 CST 2017]; root of context hierarchy
+2017-09-20 17:22:12,742 - Unregistering JMX-exposed beans on shutdown
+2017-09-20 17:22:12,743 - Unregistering JMX-exposed beans
+2017-09-20 17:22:12,745 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:22:12,752 - {dataSource-2} closed
+2017-09-20 17:22:13,354 - Starting Application on MrZhang with PID 10152 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-20 17:22:13,354 - The following profiles are active: dev
+2017-09-20 17:22:13,359 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93e9c89: startup date [Wed Sep 20 17:22:13 CST 2017]; root of context hierarchy
+2017-09-20 17:22:14,159 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:22:14,256 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:22:14,308 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-20 17:22:14,309 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-20 17:22:14,311 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-20 17:22:14,311 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-20 17:22:14,845 - Tomcat initialized with port(s): 8089 (http)
+2017-09-20 17:22:15,011 - Root WebApplicationContext: initialization completed in 1652 ms
+2017-09-20 17:22:15,136 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 17:22:15,136 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-20 17:22:15,137 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 17:22:15,138 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-20 17:22:15,877 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:22:15,878 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-20 17:22:15,896 - {dataSource-3} inited
+2017-09-20 17:22:15,904 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-20 17:22:16,015 - HHH000228: Running hbm2ddl schema update
+2017-09-20 17:22:16,241 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:22:16,512 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-20 17:22:16,513 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-20 17:22:16,514 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-20 17:22:16,516 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 17:22:16,516 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 17:22:16,548 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93e9c89: startup date [Wed Sep 20 17:22:13 CST 2017]; root of context hierarchy
+2017-09-20 17:22:16,595 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-20 17:22:16,828 - LiveReload server is running on port 35729
+2017-09-20 17:22:16,920 - Registering beans for JMX exposure on startup
+2017-09-20 17:22:16,921 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-20 17:22:16,921 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-20 17:22:16,923 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-20 17:22:16,925 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-20 17:22:16,943 - Tomcat started on port(s): 8089 (http)
+2017-09-20 17:22:16,947 - Started Application in 3.649 seconds (JVM running for 710.451)
+2017-09-20 17:22:22,658 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-20 17:22:22,663 - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2017-09-20 17:22:22,679 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-20 17:23:36,674 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93e9c89: startup date [Wed Sep 20 17:22:13 CST 2017]; root of context hierarchy
+2017-09-20 17:23:36,676 - Unregistering JMX-exposed beans on shutdown
+2017-09-20 17:23:36,677 - Unregistering JMX-exposed beans
+2017-09-20 17:23:36,678 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:23:36,680 - {dataSource-3} closed
+2017-09-20 17:23:37,210 - Starting Application on MrZhang with PID 10152 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-20 17:23:37,210 - The following profiles are active: dev
+2017-09-20 17:23:37,218 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54a9db: startup date [Wed Sep 20 17:23:37 CST 2017]; root of context hierarchy
+2017-09-20 17:23:38,000 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:23:38,143 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:23:38,265 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-20 17:23:38,266 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-20 17:23:38,267 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-20 17:23:38,269 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-20 17:23:38,659 - Tomcat initialized with port(s): 8089 (http)
+2017-09-20 17:23:38,698 - Root WebApplicationContext: initialization completed in 1480 ms
+2017-09-20 17:23:38,801 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 17:23:38,802 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-20 17:23:38,802 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 17:23:38,802 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-20 17:23:39,438 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:23:39,439 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-20 17:23:39,460 - {dataSource-4} inited
+2017-09-20 17:23:39,467 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-20 17:23:39,595 - HHH000228: Running hbm2ddl schema update
+2017-09-20 17:23:39,782 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:23:40,135 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-20 17:23:40,135 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-20 17:23:40,136 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-20 17:23:40,138 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 17:23:40,140 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 17:23:40,162 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54a9db: startup date [Wed Sep 20 17:23:37 CST 2017]; root of context hierarchy
+2017-09-20 17:23:40,173 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-20 17:23:40,426 - LiveReload server is running on port 35729
+2017-09-20 17:23:40,508 - Registering beans for JMX exposure on startup
+2017-09-20 17:23:40,509 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-20 17:23:40,509 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-20 17:23:40,513 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-20 17:23:40,516 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-20 17:23:40,538 - Tomcat started on port(s): 8089 (http)
+2017-09-20 17:23:40,542 - Started Application in 3.395 seconds (JVM running for 794.045)
+2017-09-20 17:30:43,012 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54a9db: startup date [Wed Sep 20 17:23:37 CST 2017]; root of context hierarchy
+2017-09-20 17:30:43,014 - Unregistering JMX-exposed beans on shutdown
+2017-09-20 17:30:43,014 - Unregistering JMX-exposed beans
+2017-09-20 17:30:43,016 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:30:43,019 - {dataSource-4} closed
+2017-09-20 17:30:43,592 - Starting Application on MrZhang with PID 10152 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-20 17:30:43,592 - The following profiles are active: dev
+2017-09-20 17:30:43,595 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611958e6: startup date [Wed Sep 20 17:30:43 CST 2017]; root of context hierarchy
+2017-09-20 17:30:44,343 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:30:44,404 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:30:44,524 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-20 17:30:44,525 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-20 17:30:44,528 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-20 17:30:44,529 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-20 17:30:44,852 - Tomcat initialized with port(s): 8089 (http)
+2017-09-20 17:30:44,880 - Root WebApplicationContext: initialization completed in 1285 ms
+2017-09-20 17:30:44,936 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 17:30:44,937 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-20 17:30:44,937 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 17:30:44,937 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-20 17:30:45,444 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:30:45,446 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-20 17:30:45,470 - {dataSource-5} inited
+2017-09-20 17:30:45,490 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-20 17:30:45,614 - HHH000228: Running hbm2ddl schema update
+2017-09-20 17:30:45,753 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:30:46,035 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-20 17:30:46,035 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-20 17:30:46,036 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-20 17:30:46,038 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 17:30:46,039 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 17:30:46,113 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611958e6: startup date [Wed Sep 20 17:30:43 CST 2017]; root of context hierarchy
+2017-09-20 17:30:46,129 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-20 17:30:46,430 - LiveReload server is running on port 35729
+2017-09-20 17:30:46,490 - Registering beans for JMX exposure on startup
+2017-09-20 17:30:46,490 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-20 17:30:46,490 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-20 17:30:46,493 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-20 17:30:46,493 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-20 17:30:46,506 - Tomcat started on port(s): 8089 (http)
+2017-09-20 17:30:46,508 - Started Application in 2.978 seconds (JVM running for 1220.011)
+2017-09-20 17:33:40,036 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@611958e6: startup date [Wed Sep 20 17:30:43 CST 2017]; root of context hierarchy
+2017-09-20 17:33:40,038 - Unregistering JMX-exposed beans on shutdown
+2017-09-20 17:33:40,038 - Unregistering JMX-exposed beans
+2017-09-20 17:33:40,040 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:33:40,049 - {dataSource-5} closed
+2017-09-20 17:33:40,600 - Starting Application on MrZhang with PID 10152 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-20 17:33:40,603 - The following profiles are active: dev
+2017-09-20 17:33:40,613 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5513a67d: startup date [Wed Sep 20 17:33:40 CST 2017]; root of context hierarchy
+2017-09-20 17:33:41,119 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:33:41,216 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:33:41,255 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-20 17:33:41,256 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-20 17:33:41,256 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-20 17:33:41,257 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-20 17:33:41,601 - Tomcat initialized with port(s): 8089 (http)
+2017-09-20 17:33:41,624 - Root WebApplicationContext: initialization completed in 1011 ms
+2017-09-20 17:33:41,668 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 17:33:41,670 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-20 17:33:41,670 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 17:33:41,670 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-20 17:33:42,275 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:33:42,276 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-20 17:33:42,302 - {dataSource-6} inited
+2017-09-20 17:33:42,308 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-20 17:33:42,383 - HHH000228: Running hbm2ddl schema update
+2017-09-20 17:33:42,589 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:33:42,793 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-20 17:33:42,794 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-20 17:33:42,795 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-20 17:33:42,796 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 17:33:42,796 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 17:33:42,816 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5513a67d: startup date [Wed Sep 20 17:33:40 CST 2017]; root of context hierarchy
+2017-09-20 17:33:42,826 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-20 17:33:42,947 - LiveReload server is running on port 35729
+2017-09-20 17:33:43,017 - Registering beans for JMX exposure on startup
+2017-09-20 17:33:43,017 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-20 17:33:43,018 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-20 17:33:43,021 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-20 17:33:43,022 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-20 17:33:43,030 - Tomcat started on port(s): 8089 (http)
+2017-09-20 17:33:43,031 - Started Application in 2.524 seconds (JVM running for 1396.535)
+2017-09-20 17:44:43,046 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5513a67d: startup date [Wed Sep 20 17:33:40 CST 2017]; root of context hierarchy
+2017-09-20 17:44:43,047 - Unregistering JMX-exposed beans on shutdown
+2017-09-20 17:44:43,047 - Unregistering JMX-exposed beans
+2017-09-20 17:44:43,048 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:44:43,051 - {dataSource-6} closed
+2017-09-20 17:44:43,754 - Starting Application on MrZhang with PID 10152 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-20 17:44:43,755 - The following profiles are active: dev
+2017-09-20 17:44:43,757 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5f543ce7: startup date [Wed Sep 20 17:44:43 CST 2017]; root of context hierarchy
+2017-09-20 17:44:44,204 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:44:44,303 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:44:44,408 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-20 17:44:44,409 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-20 17:44:44,410 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-20 17:44:44,411 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-20 17:44:44,726 - Tomcat initialized with port(s): 8089 (http)
+2017-09-20 17:44:44,767 - Root WebApplicationContext: initialization completed in 1010 ms
+2017-09-20 17:44:44,810 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 17:44:44,810 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-20 17:44:44,811 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 17:44:44,811 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-20 17:44:45,307 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:44:45,307 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-20 17:44:45,322 - {dataSource-7} inited
+2017-09-20 17:44:45,328 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-20 17:44:45,369 - HHH000228: Running hbm2ddl schema update
+2017-09-20 17:44:45,511 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:44:45,742 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-20 17:44:45,743 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-20 17:44:45,744 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-20 17:44:45,748 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 17:44:45,749 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 17:44:45,822 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5f543ce7: startup date [Wed Sep 20 17:44:43 CST 2017]; root of context hierarchy
+2017-09-20 17:44:45,848 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-20 17:44:46,090 - LiveReload server is running on port 35729
+2017-09-20 17:44:46,153 - Registering beans for JMX exposure on startup
+2017-09-20 17:44:46,154 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-20 17:44:46,154 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-20 17:44:46,166 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-20 17:44:46,168 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-20 17:44:46,267 - Tomcat started on port(s): 8089 (http)
+2017-09-20 17:44:46,270 - Started Application in 2.551 seconds (JVM running for 2059.773)
+2017-09-20 17:44:56,642 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5f543ce7: startup date [Wed Sep 20 17:44:43 CST 2017]; root of context hierarchy
+2017-09-20 17:44:56,643 - Unregistering JMX-exposed beans on shutdown
+2017-09-20 17:44:56,643 - Unregistering JMX-exposed beans
+2017-09-20 17:44:56,644 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:44:56,647 - {dataSource-7} closed
+2017-09-20 17:44:57,245 - Starting Application on MrZhang with PID 10152 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-20 17:44:57,245 - The following profiles are active: dev
+2017-09-20 17:44:57,247 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d65d70: startup date [Wed Sep 20 17:44:57 CST 2017]; root of context hierarchy
+2017-09-20 17:44:57,619 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:44:57,681 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-20 17:44:57,709 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-20 17:44:57,709 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-20 17:44:57,709 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-20 17:44:57,710 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-20 17:44:57,956 - Tomcat initialized with port(s): 8089 (http)
+2017-09-20 17:44:57,982 - Root WebApplicationContext: initialization completed in 735 ms
+2017-09-20 17:44:58,059 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 17:44:58,060 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-20 17:44:58,061 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 17:44:58,062 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-20 17:44:58,596 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:44:58,597 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-20 17:44:58,616 - {dataSource-8} inited
+2017-09-20 17:44:58,626 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-20 17:44:58,812 - HHH000228: Running hbm2ddl schema update
+2017-09-20 17:44:58,935 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-20 17:44:59,263 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-20 17:44:59,264 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-20 17:44:59,268 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-20 17:44:59,272 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 17:44:59,273 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 17:44:59,313 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d65d70: startup date [Wed Sep 20 17:44:57 CST 2017]; root of context hierarchy
+2017-09-20 17:44:59,337 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-20 17:44:59,557 - LiveReload server is running on port 35729
+2017-09-20 17:44:59,604 - Registering beans for JMX exposure on startup
+2017-09-20 17:44:59,605 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-20 17:44:59,605 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-20 17:44:59,608 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-20 17:44:59,609 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-20 17:44:59,685 - Tomcat started on port(s): 8089 (http)
+2017-09-20 17:44:59,691 - Started Application in 2.491 seconds (JVM running for 2073.194)

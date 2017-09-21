@@ -39,15 +39,25 @@ public class ProductInfoServiceImpl implements ProductInfoService {
     }
 
     @Override
+    @Transactional
     public ProductInfo save(ProductInfo productInfo) {
         // TODO Auto-generated method stub
         return productInfoRepository.save(productInfo);
     }
 
     @Override
+    @Transactional
     public void increaseStock(List<CartDTO> cartDTOs) {
         // TODO Auto-generated method stub
-
+        for (CartDTO cartDTO : cartDTOs) {
+            ProductInfo productInfo = productInfoRepository.findOne(cartDTO.getProductId());
+            if (productInfo == null) {
+                throw new ServiceException("商品不存在");
+            }
+            Integer result = productInfo.getProductStock() + cartDTO.getProductQuantity();
+            productInfo.setProductStock(result);
+            productInfoRepository.save(productInfo);
+        }
     }
 
     @Override

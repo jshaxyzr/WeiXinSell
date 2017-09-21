@@ -83,6 +83,15 @@ public class CommonExceptionAdvice {
     public ResultVo handleBindException(BindException e) {
         logger.error("参数绑定失败", e);
         BindingResult result = e.getBindingResult();
+        // List<FieldError> errors = result.getFieldErrors();
+        // StringBuffer stringBuffer = null;
+        // for (FieldError fieldError : errors) {
+        // String field = fieldError.getField();
+        // String code = fieldError.getDefaultMessage();
+        // String message = String.format("%s:%s", field, code);
+        // stringBuffer.append(message);
+        // }
+        // return ResultVoUtil.failed(400, stringBuffer.toString());
         FieldError error = result.getFieldError();
         String field = error.getField();
         String code = error.getDefaultMessage();

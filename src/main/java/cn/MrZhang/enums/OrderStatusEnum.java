@@ -13,7 +13,7 @@ import lombok.Getter;
 @Getter
 public enum OrderStatusEnum {
 
-    NEW(0, "新订单"), CANCEL(2, "取消"), FINSHED(1, "下架");
+    NEW(0, "新订单"), CANCEL(2, "取消"), FINSHED(1, "完成");
     private Integer code;
 
     private String message;
