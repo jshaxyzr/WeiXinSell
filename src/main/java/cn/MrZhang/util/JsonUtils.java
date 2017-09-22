@@ -34,11 +34,11 @@ public class JsonUtils {
     }
 
     /**
-     * 将对象转换成json字符串。
-     * <p>Title: pojoToJson</p>
-     * <p>Description: </p>
-     * @param data
-     * @return
+     * 
+    * @Title: objectToJson
+    * @Description: TODO 将对象转换成json字符串。
+    * @param data
+    * @return String
      */
     public static String objectToJson(Object data) {
         try {
@@ -51,12 +51,13 @@ public class JsonUtils {
     }
 
     /**
-     * 将json结果集转化为对象
-     * 
-     * @param jsonData json数据
-     * @param clazz 对象中的object类型
-     * @return
-     */
+    * 
+    * @Title: jsonToPojo
+    * @Description: TODO 将json结果集转化为对象
+    * @param jsonData 
+    * @param beanType
+    * @return T
+    */
     public static <T> T jsonToPojo(String jsonData, Class<T> beanType) {
         try {
             T t = MAPPER.readValue(jsonData, beanType);
@@ -68,13 +69,13 @@ public class JsonUtils {
     }
 
     /**
-     * 将json数据转换成pojo对象list
-     * <p>Title: jsonToList</p>
-     * <p>Description: </p>
-     * @param jsonData
-     * @param beanType
-     * @return
-     */
+    * 
+    * @Title: jsonToList
+    * @Description: TODO 将json数据转换成pojo对象list
+    * @param jsonData
+    * @param beanType
+    * @return List<T>
+    */
     public static <T> List<T> jsonToList(String jsonData, Class<T> beanType) {
         JavaType javaType = MAPPER.getTypeFactory().constructParametricType(List.class, beanType);
         try {
@@ -89,9 +90,10 @@ public class JsonUtils {
 
     /**
      * 
-            *@name 将对象转换为JSON字符串并格式化
-            *@Description 相关说明 
-            *@Time 创建时间:2015年8月5日下午1:28:00
+    * @Title: toFormatJson
+    * @Description: TODO 将对象转换为JSON字符串并格式化
+    * @param value
+    * @return String
      */
     public static String toFormatJson(Object value) {
         try {
@@ -106,9 +108,10 @@ public class JsonUtils {
 
     /**
      * 
-            *@name 格式化json
-            *@Description 相关说明 
-            *@Time 创建时间:2015年8月5日下午1:31:04
+    * @Title: formatJson
+    * @Description: TODO 格式化json
+    * @param json
+    * @return String
      */
     public static String formatJson(String json) {
         Object object = jsonToPojo(json, Object.class);
