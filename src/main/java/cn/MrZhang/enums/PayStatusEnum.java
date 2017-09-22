@@ -11,7 +11,7 @@ import lombok.Getter;
  * @version V1.0
  */
 @Getter
-public enum PayStatusEnum {
+public enum PayStatusEnum implements CodeEnum  {
 
     WAIT(0, "未支付"), CANCEL(2, "退款中"), SUCCESS(1, "已支付");
     private Integer code;

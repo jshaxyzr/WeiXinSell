@@ -5,10 +5,14 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
+import cn.MrZhang.enums.OrderStatusEnum;
+import cn.MrZhang.enums.PayStatusEnum;
 import cn.MrZhang.model.OrderDetail;
+import cn.MrZhang.util.EnumUtil;
 import cn.MrZhang.util.serializer.Date2LongSerializer;
 import lombok.Data;
 
@@ -57,4 +61,14 @@ public class OrderDTO {
     private Date updateTime;
     // 附上初始值 保持接口返回信息的严谨性 及 list为空时不是null 而是一个空list
     private List<OrderDetail> orderDetailList = new ArrayList<>();
+
+    @JsonIgnore
+    public OrderStatusEnum getOrderStatusEnum() {
+        return EnumUtil.getByCode(orderStatus, OrderStatusEnum.class);
+    }
+
+    @JsonIgnore
+    public PayStatusEnum getPayStatusEnum() {
+        return EnumUtil.getByCode(payStatus, PayStatusEnum.class);
+    }
 }

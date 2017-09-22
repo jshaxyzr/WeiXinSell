@@ -11,7 +11,7 @@ import lombok.Getter;
  * @version V1.0
  */
 @Getter
-public enum OrderStatusEnum {
+public enum OrderStatusEnum implements CodeEnum  {
 
     NEW(0, "新订单"), CANCEL(2, "取消"), FINSHED(1, "完成");
     private Integer code;

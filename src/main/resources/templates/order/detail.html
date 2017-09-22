@@ -1,14 +1,14 @@
+<!DOCTYPE html>
 <html>
-<#include "../common/header.ftl">
+<%include("/common/header.html"){}%>
 
 <body>
 <div id="wrapper" class="toggled">
 
-    <#--边栏sidebar-->
-    <#include "../common/nav.ftl">
+   
+    <%include("/common/nav.html"){}%>
 
 
-    <#--主要内容content-->
     <div id="page-content-wrapper">
         <div class="container">
             <div class="row clearfix">
@@ -28,8 +28,7 @@
                         </tbody>
                     </table>
                 </div>
-
-            <#--订单详情表数据-->
+            <!--订单详情表数据-->
                 <div class="col-md-12 column">
                     <table class="table table-bordered">
                         <thead>
@@ -42,7 +41,8 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <#list orderDTO.orderDetailList as orderDetail>
+                       
+                        <%for(orderDetail in orderDTO.orderDetailList){%>
                         <tr>
                             <td>${orderDetail.productId}</td>
                             <td>${orderDetail.productName}</td>
@@ -50,17 +50,16 @@
                             <td>${orderDetail.productQuantity}</td>
                             <td>${orderDetail.productQuantity * orderDetail.productPrice}</td>
                         </tr>
-                        </#list>
+                        <%}%>
                         </tbody>
                     </table>
                 </div>
-
-            <#--操作-->
+            <!--操作-->
                 <div class="col-md-12 column">
-                <#if orderDTO.getOrderStatusEnum().message == "新订单">
-                    <a href="/sell/seller/order/finish?orderId=${orderDTO.orderId}" type="button" class="btn btn-default btn-primary">完结订单</a>
-                    <a href="/sell/seller/order/cancel?orderId=${orderDTO.orderId}" type="button" class="btn btn-default btn-danger">取消订单</a>
-                </#if>
+                <%if (@orderDTO.getOrderStatusEnum().getMessage() == "新订单"){%>
+                    <a href="/seller/order/finish?orderId=${orderDTO.orderId}" type="button" class="btn btn-default btn-primary">完结订单</a>
+                    <a href="/seller/order/cancel?orderId=${orderDTO.orderId}" type="button" class="btn btn-default btn-danger">取消订单</a>
+                <%}%>
                 </div>
             </div>
         </div>
