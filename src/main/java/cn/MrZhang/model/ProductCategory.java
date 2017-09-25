@@ -8,6 +8,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.hibernate.annotations.DynamicInsert;
+import org.hibernate.annotations.DynamicUpdate;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -26,6 +29,8 @@ import lombok.extern.log4j.Log4j;
 @Log4j
 @NoArgsConstructor
 @AllArgsConstructor
+@DynamicUpdate
+@DynamicInsert
 public class ProductCategory implements Serializable {
     /*
      * 类目ID

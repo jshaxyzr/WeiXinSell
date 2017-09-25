@@ -1,13 +1,14 @@
+<!DOCTYPE html>
 <html>
-<#include "../common/header.ftl">
+<%include("/common/header.html"){}%>
 
 <body>
-<div id="wrapper" class="toggled">
+	<div id="wrapper" class="toggled">
 
-    <#--边栏sidebar-->
-    <#include "../common/nav.ftl">
 
-    <#--主要内容content-->
+		<%include("/common/nav.html"){}%>
+
+    <!--主要内容content-->
     <div id="page-content-wrapper">
         <div class="container-fluid">
             <div class="row clearfix">
@@ -25,16 +26,16 @@
                         </thead>
                         <tbody>
 
-                        <#list categoryList as category>
+                        <%for(category in productCategories){%>
                         <tr>
                             <td>${category.categoryId}</td>
                             <td>${category.categoryName}</td>
                             <td>${category.categoryType}</td>
-                            <td>${category.createTime}</td>
+                            <td>${category.createdTime}</td>
                             <td>${category.updateTime}</td>
-                            <td><a href="/sell/seller/category/index?categoryId=${category.categoryId}">修改</a></td>
+                            <td><a href="/seller/category/index?categoryId=${category.categoryId}">修改</a></td>
                         </tr>
-                        </#list>
+                       <%}%>
                         </tbody>
                     </table>
                 </div>
