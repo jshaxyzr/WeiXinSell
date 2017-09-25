@@ -29,6 +29,7 @@ import cn.MrZhang.repository.OrderMasterRepository;
 import cn.MrZhang.service.OrderDetailService;
 import cn.MrZhang.service.OrderService;
 import cn.MrZhang.service.ProductInfoService;
+import cn.MrZhang.service.PushMessageService;
 import cn.MrZhang.util.IDUtils;
 import lombok.extern.log4j.Log4j;
 
@@ -47,6 +48,8 @@ public class OrderServiceImpl implements OrderService {
 
     @Autowired
     private OrderDetailRepository orderDetailRepository;
+    @Autowired
+    private PushMessageService pushMessageService;
 
     @Override
     @Transactional
@@ -201,6 +204,10 @@ public class OrderServiceImpl implements OrderService {
             log.error(MessageFormat.format("【完成订单】更新订单状态失败，orderMaster={0}", orderMaster));
             throw new ServiceException("完结订单状态失败");
         }
+
+        // 完结后推送微信模板消息
+
+        pushMessageService.orderStatus(orderDTO);
         return orderDTO;
     }
 
