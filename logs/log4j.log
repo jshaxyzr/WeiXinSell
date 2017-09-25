@@ -1,310 +1,94 @@
-2017-09-22 17:04:58,455 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17b57502: startup date [Fri Sep 22 16:39:13 CST 2017]; root of context hierarchy
-2017-09-22 17:04:58,471 - Unregistering JMX-exposed beans on shutdown
-2017-09-22 17:04:58,472 - Unregistering JMX-exposed beans
-2017-09-22 17:04:58,475 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:04:58,478 - {dataSource-6} closed
-2017-09-22 17:05:06,411 - Starting Application on MrZhang with PID 8952 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
-2017-09-22 17:05:06,412 - The following profiles are active: dev
-2017-09-22 17:05:06,416 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@295a3eaf: startup date [Fri Sep 22 17:05:06 CST 2017]; root of context hierarchy
-2017-09-22 17:05:07,162 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-22 17:05:07,248 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-22 17:05:07,310 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
-2017-09-22 17:05:07,310 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
-2017-09-22 17:05:07,311 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
-2017-09-22 17:05:07,312 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
-2017-09-22 17:05:07,380 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-09-22 17:05:07,577 - Tomcat initialized with port(s): 8089 (http)
-2017-09-22 17:05:07,610 - Root WebApplicationContext: initialization completed in 1194 ms
-2017-09-22 17:05:07,650 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-09-22 17:05:07,650 - Mapping servlet: 'statViewServlet' to [/druid/*]
-2017-09-22 17:05:07,651 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-09-22 17:05:07,651 - Mapping filter: 'webStatFilter' to urls: [/*]
-2017-09-22 17:05:08,020 - Building JPA container EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:05:08,020 - HHH000204: Processing PersistenceUnitInfo [
+2017-09-25 10:03:56,165 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@dd1b012: startup date [Mon Sep 25 09:27:31 CST 2017]; root of context hierarchy
+2017-09-25 10:03:56,181 - Unregistering JMX-exposed beans on shutdown
+2017-09-25 10:03:56,182 - Unregistering JMX-exposed beans
+2017-09-25 10:03:56,214 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:03:56,223 - {dataSource-6} closed
+2017-09-25 10:03:57,002 - Starting Application on MrZhang with PID 11440 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-25 10:03:57,003 - The following profiles are active: dev
+2017-09-25 10:03:57,016 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@245f0de0: startup date [Mon Sep 25 10:03:57 CST 2017]; root of context hierarchy
+2017-09-25 10:03:58,138 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:03:58,276 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:03:58,444 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-25 10:03:58,458 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-25 10:03:58,460 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-25 10:03:58,461 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-25 10:03:58,602 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-09-25 10:03:58,985 - Tomcat initialized with port(s): 8089 (http)
+2017-09-25 10:03:59,022 - Root WebApplicationContext: initialization completed in 2006 ms
+2017-09-25 10:03:59,092 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-25 10:03:59,093 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-25 10:03:59,094 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-25 10:03:59,094 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-25 10:10:44,744 - Starting Application on MrZhang with PID 3300 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-25 10:10:44,746 - The following profiles are active: dev
+2017-09-25 10:10:44,939 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ec68b5d: startup date [Mon Sep 25 10:10:44 CST 2017]; root of context hierarchy
+2017-09-25 10:10:45,686 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-25 10:10:47,265 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:10:47,466 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:10:47,588 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-25 10:10:47,589 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-25 10:10:47,591 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-25 10:10:47,592 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-25 10:10:48,211 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-09-25 10:10:49,761 - Tomcat initialized with port(s): 8089 (http)
+2017-09-25 10:10:50,052 - Root WebApplicationContext: initialization completed in 5117 ms
+2017-09-25 10:10:50,467 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-25 10:10:50,470 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-25 10:10:50,478 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-25 10:10:50,480 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-25 10:10:51,748 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:10:51,777 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2017-09-22 17:05:08,044 - {dataSource-7} inited
-2017-09-22 17:05:08,051 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2017-09-22 17:05:08,106 - HHH000228: Running hbm2ddl schema update
-2017-09-22 17:05:08,204 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:05:08,520 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
-2017-09-22 17:05:08,521 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
-2017-09-22 17:05:08,522 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
-2017-09-22 17:05:08,522 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
-2017-09-22 17:05:08,522 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
-2017-09-22 17:05:08,523 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
-2017-09-22 17:05:08,525 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
-2017-09-22 17:05:08,525 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
-2017-09-22 17:05:08,526 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
-2017-09-22 17:05:08,526 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:05:08,526 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:05:08,527 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:05:08,528 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
-2017-09-22 17:05:08,528 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
-2017-09-22 17:05:08,528 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
-2017-09-22 17:05:08,528 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
-2017-09-22 17:05:08,529 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
-2017-09-22 17:05:08,531 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-09-22 17:05:08,532 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-09-22 17:05:08,541 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-22 17:05:08,563 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@295a3eaf: startup date [Fri Sep 22 17:05:06 CST 2017]; root of context hierarchy
-2017-09-22 17:05:08,573 - Detected @ExceptionHandler methods in commonExceptionAdvice
-2017-09-22 17:05:08,698 - LiveReload server is running on port 35729
-2017-09-22 17:05:08,882 - Registering beans for JMX exposure on startup
-2017-09-22 17:05:08,883 - Bean with name 'statFilter' has been autodetected for JMX exposure
-2017-09-22 17:05:08,883 - Bean with name 'dataSource' has been autodetected for JMX exposure
-2017-09-22 17:05:08,885 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
-2017-09-22 17:05:08,886 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
-2017-09-22 17:05:08,907 - Tomcat started on port(s): 8089 (http)
-2017-09-22 17:05:08,914 - Started Application in 2.579 seconds (JVM running for 2582.391)
-2017-09-22 17:05:43,917 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@295a3eaf: startup date [Fri Sep 22 17:05:06 CST 2017]; root of context hierarchy
-2017-09-22 17:05:43,920 - Unregistering JMX-exposed beans on shutdown
-2017-09-22 17:05:43,921 - Unregistering JMX-exposed beans
-2017-09-22 17:05:43,924 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:05:43,930 - {dataSource-7} closed
-2017-09-22 17:05:44,605 - Starting Application on MrZhang with PID 8952 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
-2017-09-22 17:05:44,605 - The following profiles are active: dev
-2017-09-22 17:05:44,611 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@687f0df3: startup date [Fri Sep 22 17:05:44 CST 2017]; root of context hierarchy
-2017-09-22 17:05:45,286 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-22 17:05:45,345 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-22 17:05:45,377 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
-2017-09-22 17:05:45,377 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
-2017-09-22 17:05:45,378 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
-2017-09-22 17:05:45,378 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
-2017-09-22 17:05:45,446 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-09-22 17:05:45,650 - Tomcat initialized with port(s): 8089 (http)
-2017-09-22 17:05:45,709 - Root WebApplicationContext: initialization completed in 1098 ms
-2017-09-22 17:05:45,798 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-09-22 17:05:45,799 - Mapping servlet: 'statViewServlet' to [/druid/*]
-2017-09-22 17:05:45,799 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-09-22 17:05:45,800 - Mapping filter: 'webStatFilter' to urls: [/*]
-2017-09-22 17:05:46,217 - Building JPA container EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:05:46,218 - HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2017-09-22 17:05:46,232 - {dataSource-8} inited
-2017-09-22 17:05:46,239 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2017-09-22 17:05:46,332 - HHH000228: Running hbm2ddl schema update
-2017-09-22 17:05:46,472 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:05:46,822 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
-2017-09-22 17:05:46,826 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
-2017-09-22 17:05:46,829 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
-2017-09-22 17:05:46,830 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
-2017-09-22 17:05:46,832 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
-2017-09-22 17:05:46,833 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
-2017-09-22 17:05:46,835 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
-2017-09-22 17:05:46,836 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
-2017-09-22 17:05:46,838 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
-2017-09-22 17:05:46,838 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:05:46,838 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:05:46,839 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:05:46,840 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
-2017-09-22 17:05:46,841 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
-2017-09-22 17:05:46,841 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
-2017-09-22 17:05:46,841 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
-2017-09-22 17:05:46,842 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
-2017-09-22 17:05:46,856 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-09-22 17:05:46,857 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-09-22 17:05:46,940 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-22 17:05:46,983 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@687f0df3: startup date [Fri Sep 22 17:05:44 CST 2017]; root of context hierarchy
-2017-09-22 17:05:47,008 - Detected @ExceptionHandler methods in commonExceptionAdvice
-2017-09-22 17:05:47,276 - LiveReload server is running on port 35729
-2017-09-22 17:05:47,549 - Registering beans for JMX exposure on startup
-2017-09-22 17:05:47,550 - Bean with name 'statFilter' has been autodetected for JMX exposure
-2017-09-22 17:05:47,551 - Bean with name 'dataSource' has been autodetected for JMX exposure
-2017-09-22 17:05:47,554 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
-2017-09-22 17:05:47,555 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
-2017-09-22 17:05:47,572 - Tomcat started on port(s): 8089 (http)
-2017-09-22 17:05:47,582 - Started Application in 3.046 seconds (JVM running for 2621.059)
-2017-09-22 17:05:53,335 - FrameworkServlet 'dispatcherServlet': initialization started
-2017-09-22 17:05:53,343 - FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
-2017-09-22 17:05:53,369 - HHH000397: Using ASTQueryTranslatorFactory
-2017-09-22 17:10:42,246 - Starting Application on MrZhang with PID 8236 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
-2017-09-22 17:10:42,248 - The following profiles are active: dev
-2017-09-22 17:10:42,394 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@942e7e8: startup date [Fri Sep 22 17:10:42 CST 2017]; root of context hierarchy
-2017-09-22 17:10:43,114 - HV000001: Hibernate Validator 5.3.5.Final
-2017-09-22 17:10:44,349 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-22 17:10:44,544 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-22 17:10:44,627 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
-2017-09-22 17:10:44,628 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
-2017-09-22 17:10:44,631 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
-2017-09-22 17:10:44,632 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
-2017-09-22 17:10:45,158 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-09-22 17:10:46,447 - Tomcat initialized with port(s): 8089 (http)
-2017-09-22 17:10:46,754 - Root WebApplicationContext: initialization completed in 4365 ms
-2017-09-22 17:10:47,120 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-09-22 17:10:47,122 - Mapping servlet: 'statViewServlet' to [/druid/*]
-2017-09-22 17:10:47,129 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-09-22 17:10:47,131 - Mapping filter: 'webStatFilter' to urls: [/*]
-2017-09-22 17:10:48,555 - Building JPA container EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:10:48,587 - HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2017-09-22 17:10:48,926 - HHH000412: Hibernate Core {5.0.12.Final}
-2017-09-22 17:10:48,928 - HHH000206: hibernate.properties not found
-2017-09-22 17:10:48,930 - HHH000021: Bytecode provider name : javassist
-2017-09-22 17:10:48,995 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2017-09-22 17:10:49,312 - {dataSource-1} inited
-2017-09-22 17:10:49,577 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2017-09-22 17:10:50,588 - HHH000228: Running hbm2ddl schema update
-2017-09-22 17:10:50,953 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:10:53,291 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
-2017-09-22 17:10:53,300 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
-2017-09-22 17:10:53,301 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
-2017-09-22 17:10:53,301 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
-2017-09-22 17:10:53,302 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
-2017-09-22 17:10:53,303 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
-2017-09-22 17:10:53,305 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
-2017-09-22 17:10:53,306 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
-2017-09-22 17:10:53,309 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
-2017-09-22 17:10:53,310 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:10:53,310 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:10:53,311 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:10:53,314 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
-2017-09-22 17:10:53,315 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
-2017-09-22 17:10:53,315 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
-2017-09-22 17:10:53,316 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
-2017-09-22 17:10:53,320 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
-2017-09-22 17:10:53,327 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-09-22 17:10:53,328 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-09-22 17:10:53,509 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-22 17:10:53,754 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@942e7e8: startup date [Fri Sep 22 17:10:42 CST 2017]; root of context hierarchy
-2017-09-22 17:10:53,938 - Detected @ExceptionHandler methods in commonExceptionAdvice
-2017-09-22 17:10:55,485 - LiveReload server is running on port 35729
-2017-09-22 17:10:56,052 - Registering beans for JMX exposure on startup
-2017-09-22 17:10:56,058 - Bean with name 'statFilter' has been autodetected for JMX exposure
-2017-09-22 17:10:56,059 - Bean with name 'dataSource' has been autodetected for JMX exposure
-2017-09-22 17:10:56,080 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
-2017-09-22 17:10:56,082 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
-2017-09-22 17:10:56,295 - Tomcat started on port(s): 8089 (http)
-2017-09-22 17:10:56,312 - Started Application in 14.466 seconds (JVM running for 15.256)
-2017-09-22 17:11:10,338 - FrameworkServlet 'dispatcherServlet': initialization started
-2017-09-22 17:11:10,389 - FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
-2017-09-22 17:11:10,758 - HHH000397: Using ASTQueryTranslatorFactory
-2017-09-22 17:16:48,843 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@942e7e8: startup date [Fri Sep 22 17:10:42 CST 2017]; root of context hierarchy
-2017-09-22 17:16:48,849 - Unregistering JMX-exposed beans on shutdown
-2017-09-22 17:16:48,851 - Unregistering JMX-exposed beans
-2017-09-22 17:16:48,855 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:16:48,864 - {dataSource-1} closed
-2017-09-22 17:16:49,349 - Starting Application on MrZhang with PID 8236 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
-2017-09-22 17:16:49,350 - The following profiles are active: dev
-2017-09-22 17:16:49,360 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65cf37a7: startup date [Fri Sep 22 17:16:49 CST 2017]; root of context hierarchy
-2017-09-22 17:16:50,328 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-22 17:16:50,415 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-22 17:16:50,475 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
-2017-09-22 17:16:50,476 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
-2017-09-22 17:16:50,477 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
-2017-09-22 17:16:50,478 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
-2017-09-22 17:16:50,554 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-09-22 17:16:50,804 - Tomcat initialized with port(s): 8089 (http)
-2017-09-22 17:16:50,851 - Root WebApplicationContext: initialization completed in 1491 ms
-2017-09-22 17:16:50,915 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-09-22 17:16:50,916 - Mapping servlet: 'statViewServlet' to [/druid/*]
-2017-09-22 17:16:50,917 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-09-22 17:16:50,919 - Mapping filter: 'webStatFilter' to urls: [/*]
-2017-09-22 17:16:51,485 - Building JPA container EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:16:51,486 - HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2017-09-22 17:16:51,513 - {dataSource-2} inited
-2017-09-22 17:16:51,526 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2017-09-22 17:16:51,598 - HHH000228: Running hbm2ddl schema update
-2017-09-22 17:16:51,766 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:16:52,180 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
-2017-09-22 17:16:52,189 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
-2017-09-22 17:16:52,190 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
-2017-09-22 17:16:52,191 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
-2017-09-22 17:16:52,192 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
-2017-09-22 17:16:52,193 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
-2017-09-22 17:16:52,195 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
-2017-09-22 17:16:52,196 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
-2017-09-22 17:16:52,199 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
-2017-09-22 17:16:52,200 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:16:52,200 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:16:52,202 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:16:52,205 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
-2017-09-22 17:16:52,205 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
-2017-09-22 17:16:52,205 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
-2017-09-22 17:16:52,206 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
-2017-09-22 17:16:52,206 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
-2017-09-22 17:16:52,208 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-09-22 17:16:52,209 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-09-22 17:16:52,225 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-22 17:16:52,320 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65cf37a7: startup date [Fri Sep 22 17:16:49 CST 2017]; root of context hierarchy
-2017-09-22 17:16:52,340 - Detected @ExceptionHandler methods in commonExceptionAdvice
-2017-09-22 17:16:52,516 - LiveReload server is running on port 35729
-2017-09-22 17:16:52,812 - Registering beans for JMX exposure on startup
-2017-09-22 17:16:52,813 - Bean with name 'statFilter' has been autodetected for JMX exposure
-2017-09-22 17:16:52,813 - Bean with name 'dataSource' has been autodetected for JMX exposure
-2017-09-22 17:16:52,817 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
-2017-09-22 17:16:52,818 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
-2017-09-22 17:16:52,836 - Tomcat started on port(s): 8089 (http)
-2017-09-22 17:16:52,846 - Started Application in 3.559 seconds (JVM running for 371.79)
-2017-09-22 17:19:12,859 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65cf37a7: startup date [Fri Sep 22 17:16:49 CST 2017]; root of context hierarchy
-2017-09-22 17:19:12,864 - Unregistering JMX-exposed beans on shutdown
-2017-09-22 17:19:12,865 - Unregistering JMX-exposed beans
-2017-09-22 17:19:12,873 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:19:12,882 - {dataSource-2} closed
-2017-09-22 17:19:13,392 - Starting Application on MrZhang with PID 8236 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
-2017-09-22 17:19:13,393 - The following profiles are active: dev
-2017-09-22 17:19:13,397 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c5dd6a2: startup date [Fri Sep 22 17:19:13 CST 2017]; root of context hierarchy
-2017-09-22 17:19:14,205 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-22 17:19:14,286 - Multiple Spring Data modules found, entering strict repository configuration mode!
-2017-09-22 17:19:14,351 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
-2017-09-22 17:19:14,352 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
-2017-09-22 17:19:14,353 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
-2017-09-22 17:19:14,354 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
-2017-09-22 17:19:14,444 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-09-22 17:19:14,789 - Tomcat initialized with port(s): 8089 (http)
-2017-09-22 17:19:14,826 - Root WebApplicationContext: initialization completed in 1429 ms
-2017-09-22 17:19:14,876 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-09-22 17:19:14,877 - Mapping servlet: 'statViewServlet' to [/druid/*]
-2017-09-22 17:19:14,878 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-09-22 17:19:14,878 - Mapping filter: 'webStatFilter' to urls: [/*]
-2017-09-22 17:19:15,398 - Building JPA container EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:19:15,399 - HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2017-09-22 17:19:15,425 - {dataSource-3} inited
-2017-09-22 17:19:15,436 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2017-09-22 17:19:15,492 - HHH000228: Running hbm2ddl schema update
-2017-09-22 17:19:15,652 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:19:16,052 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
-2017-09-22 17:19:16,054 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
-2017-09-22 17:19:16,055 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
-2017-09-22 17:19:16,056 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
-2017-09-22 17:19:16,056 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
-2017-09-22 17:19:16,057 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
-2017-09-22 17:19:16,058 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
-2017-09-22 17:19:16,059 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
-2017-09-22 17:19:16,061 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
-2017-09-22 17:19:16,062 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:19:16,062 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:19:16,062 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
-2017-09-22 17:19:16,064 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
-2017-09-22 17:19:16,065 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
-2017-09-22 17:19:16,065 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
-2017-09-22 17:19:16,066 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
-2017-09-22 17:19:16,067 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
-2017-09-22 17:19:16,069 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-09-22 17:19:16,070 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-09-22 17:19:16,083 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-22 17:19:16,112 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c5dd6a2: startup date [Fri Sep 22 17:19:13 CST 2017]; root of context hierarchy
-2017-09-22 17:19:16,132 - Detected @ExceptionHandler methods in commonExceptionAdvice
-2017-09-22 17:19:16,363 - LiveReload server is running on port 35729
-2017-09-22 17:19:16,680 - Registering beans for JMX exposure on startup
-2017-09-22 17:19:16,681 - Bean with name 'statFilter' has been autodetected for JMX exposure
-2017-09-22 17:19:16,681 - Bean with name 'dataSource' has been autodetected for JMX exposure
-2017-09-22 17:19:16,684 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
-2017-09-22 17:19:16,686 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
-2017-09-22 17:19:16,705 - Tomcat started on port(s): 8089 (http)
-2017-09-22 17:19:16,708 - Started Application in 3.382 seconds (JVM running for 515.653)
-2017-09-22 17:19:37,875 - FrameworkServlet 'dispatcherServlet': initialization started
-2017-09-22 17:19:37,881 - FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
-2017-09-22 17:19:37,904 - HHH000397: Using ASTQueryTranslatorFactory
-2017-09-22 17:20:06,904 - No mapping found for HTTP request with URI [/sell/seller/order/finish] in DispatcherServlet with name 'dispatcherServlet'
-2017-09-22 17:20:06,916 - URL连接地址异常
-org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /sell/seller/order/finish
+2017-09-25 10:10:52,278 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-25 10:10:52,281 - HHH000206: hibernate.properties not found
+2017-09-25 10:10:52,284 - HHH000021: Bytecode provider name : javassist
+2017-09-25 10:10:52,388 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-25 10:10:52,713 - {dataSource-1} inited
+2017-09-25 10:10:53,150 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-25 10:10:53,979 - HHH000228: Running hbm2ddl schema update
+2017-09-25 10:10:54,287 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:10:55,962 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
+2017-09-25 10:10:55,967 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-25 10:10:55,967 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
+2017-09-25 10:10:55,968 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-25 10:10:55,969 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-25 10:10:55,970 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-25 10:10:55,971 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
+2017-09-25 10:10:55,972 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
+2017-09-25 10:10:55,973 - Mapped "{[/seller/product/index],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.index(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:10:55,974 - Mapped "{[/seller/product/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:10:55,974 - Mapped "{[/seller/product/save],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.save(cn.MrZhang.form.ProductForm,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-25 10:10:55,975 - Mapped "{[/seller/product/off_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.offSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:10:55,975 - Mapped "{[/seller/product/on_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.onSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:10:55,978 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:10:55,978 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:10:55,979 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:10:55,979 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:10:55,982 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-09-25 10:10:55,982 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
+2017-09-25 10:10:55,982 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+2017-09-25 10:10:55,983 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
+2017-09-25 10:10:55,986 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
+2017-09-25 10:10:55,991 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-25 10:10:55,992 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-25 10:10:56,051 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-25 10:10:56,239 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ec68b5d: startup date [Mon Sep 25 10:10:44 CST 2017]; root of context hierarchy
+2017-09-25 10:10:56,357 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-25 10:10:57,439 - LiveReload server is running on port 35729
+2017-09-25 10:10:57,809 - Registering beans for JMX exposure on startup
+2017-09-25 10:10:57,811 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-25 10:10:57,812 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-25 10:10:57,820 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-25 10:10:57,822 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-25 10:10:58,031 - Tomcat started on port(s): 8089 (http)
+2017-09-25 10:10:58,044 - Started Application in 13.71 seconds (JVM running for 14.704)
+2017-09-25 10:11:05,748 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-25 10:11:05,824 - FrameworkServlet 'dispatcherServlet': initialization completed in 76 ms
+2017-09-25 10:11:06,159 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-25 10:11:25,465 - No mapping found for HTTP request with URI [/seller/category/list] in DispatcherServlet with name 'dispatcherServlet'
+2017-09-25 10:11:25,474 - URL连接地址异常
+org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /seller/category/list
 	at org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1177)
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
@@ -341,9 +125,9 @@ org.springframework.web.servlet.NoHandlerFoundException: No handler found for GE
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
-2017-09-22 17:20:32,159 - No mapping found for HTTP request with URI [/sell/seller/order/finish] in DispatcherServlet with name 'dispatcherServlet'
-2017-09-22 17:20:32,160 - URL连接地址异常
-org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /sell/seller/order/finish
+2017-09-25 10:12:43,998 - No mapping found for HTTP request with URI [/sell/seller/product/list] in DispatcherServlet with name 'dispatcherServlet'
+2017-09-25 10:12:43,999 - URL连接地址异常
+org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /sell/seller/product/list
 	at org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1177)
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
@@ -380,89 +164,332 @@ org.springframework.web.servlet.NoHandlerFoundException: No handler found for GE
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
-2017-09-22 17:24:51,937 - No mapping found for HTTP request with URI [/seller/product/list] in DispatcherServlet with name 'dispatcherServlet'
-2017-09-22 17:24:51,966 - URL连接地址异常
-org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /seller/product/list
-	at org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1177)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-2017-09-22 17:31:47,460 - No mapping found for HTTP request with URI [/seller/product/list] in DispatcherServlet with name 'dispatcherServlet'
-2017-09-22 17:31:47,462 - URL连接地址异常
-org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /seller/product/list
-	at org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1177)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-2017-09-22 17:35:18,808 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c5dd6a2: startup date [Fri Sep 22 17:19:13 CST 2017]; root of context hierarchy
-2017-09-22 17:35:18,849 - Unregistering JMX-exposed beans on shutdown
-2017-09-22 17:35:18,851 - Unregistering JMX-exposed beans
-2017-09-22 17:35:18,866 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2017-09-22 17:35:18,891 - {dataSource-3} closed
-2017-09-22 17:35:19,875 - Starting Application on MrZhang with PID 8236 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
-2017-09-22 17:35:19,876 - The following profiles are active: dev
-2017-09-22 17:35:19,904 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6de18b94: startup date [Fri Sep 22 17:35:19 CST 2017]; root of context hierarchy
+2017-09-25 10:13:04,391 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ec68b5d: startup date [Mon Sep 25 10:10:44 CST 2017]; root of context hierarchy
+2017-09-25 10:13:04,397 - Unregistering JMX-exposed beans on shutdown
+2017-09-25 10:13:04,402 - Unregistering JMX-exposed beans
+2017-09-25 10:13:04,410 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:13:04,426 - {dataSource-1} closed
+2017-09-25 10:13:05,057 - Starting Application on MrZhang with PID 3300 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-25 10:13:05,058 - The following profiles are active: dev
+2017-09-25 10:13:05,067 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c30141e: startup date [Mon Sep 25 10:13:05 CST 2017]; root of context hierarchy
+2017-09-25 10:13:06,469 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:13:06,587 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:13:06,653 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-25 10:13:06,654 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-25 10:13:06,655 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-25 10:13:06,655 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-25 10:13:06,811 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-09-25 10:13:07,095 - Tomcat initialized with port(s): 8089 (http)
+2017-09-25 10:13:07,170 - Root WebApplicationContext: initialization completed in 2103 ms
+2017-09-25 10:13:07,235 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-25 10:13:07,236 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-25 10:13:07,237 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-25 10:13:07,237 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-25 10:13:07,820 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:13:07,821 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-25 10:13:07,858 - {dataSource-2} inited
+2017-09-25 10:13:07,872 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-25 10:13:07,976 - HHH000228: Running hbm2ddl schema update
+2017-09-25 10:13:08,221 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:13:08,731 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
+2017-09-25 10:13:08,736 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-25 10:13:08,737 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
+2017-09-25 10:13:08,737 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-25 10:13:08,738 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-25 10:13:08,739 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-25 10:13:08,740 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
+2017-09-25 10:13:08,741 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
+2017-09-25 10:13:08,743 - Mapped "{[/seller/product/index],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.index(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:13:08,744 - Mapped "{[/seller/product/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:13:08,744 - Mapped "{[/seller/product/save],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.save(cn.MrZhang.form.ProductForm,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-25 10:13:08,744 - Mapped "{[/seller/product/off_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.offSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:13:08,745 - Mapped "{[/seller/product/on_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.onSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:13:08,747 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:13:08,749 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:13:08,754 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:13:08,755 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:13:08,757 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-09-25 10:13:08,758 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
+2017-09-25 10:13:08,758 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+2017-09-25 10:13:08,761 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
+2017-09-25 10:13:08,762 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
+2017-09-25 10:13:08,765 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-25 10:13:08,766 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-25 10:13:08,784 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-25 10:13:08,836 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c30141e: startup date [Mon Sep 25 10:13:05 CST 2017]; root of context hierarchy
+2017-09-25 10:13:08,855 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-25 10:13:09,097 - LiveReload server is running on port 35729
+2017-09-25 10:13:09,426 - Registering beans for JMX exposure on startup
+2017-09-25 10:13:09,427 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-25 10:13:09,428 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-25 10:13:09,431 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-25 10:13:09,433 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-25 10:13:09,451 - Tomcat started on port(s): 8089 (http)
+2017-09-25 10:13:09,457 - Started Application in 4.484 seconds (JVM running for 146.118)
+2017-09-25 10:16:31,382 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c30141e: startup date [Mon Sep 25 10:13:05 CST 2017]; root of context hierarchy
+2017-09-25 10:16:31,394 - Unregistering JMX-exposed beans on shutdown
+2017-09-25 10:16:31,395 - Unregistering JMX-exposed beans
+2017-09-25 10:16:31,404 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:16:31,412 - {dataSource-2} closed
+2017-09-25 10:16:32,094 - Starting Application on MrZhang with PID 3300 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-25 10:16:32,099 - The following profiles are active: dev
+2017-09-25 10:16:32,111 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@561a3dd0: startup date [Mon Sep 25 10:16:32 CST 2017]; root of context hierarchy
+2017-09-25 10:16:33,215 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:16:33,300 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:16:33,376 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-25 10:16:33,377 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-25 10:16:33,378 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-25 10:16:33,379 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-25 10:16:33,503 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-09-25 10:16:33,871 - Tomcat initialized with port(s): 8089 (http)
+2017-09-25 10:16:33,931 - Root WebApplicationContext: initialization completed in 1821 ms
+2017-09-25 10:16:34,013 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-25 10:16:34,015 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-25 10:16:34,025 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-25 10:16:34,027 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-25 10:16:34,635 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:16:34,635 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-25 10:16:34,663 - {dataSource-3} inited
+2017-09-25 10:16:34,673 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-25 10:16:34,731 - HHH000228: Running hbm2ddl schema update
+2017-09-25 10:16:34,982 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:16:35,501 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
+2017-09-25 10:16:35,503 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-25 10:16:35,504 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
+2017-09-25 10:16:35,505 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-25 10:16:35,505 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-25 10:16:35,506 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-25 10:16:35,507 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
+2017-09-25 10:16:35,507 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
+2017-09-25 10:16:35,508 - Mapped "{[/seller/product/index],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.index(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:16:35,509 - Mapped "{[/seller/product/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:16:35,509 - Mapped "{[/seller/product/save],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.save(cn.MrZhang.form.ProductForm,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-25 10:16:35,509 - Mapped "{[/seller/product/off_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.offSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:16:35,510 - Mapped "{[/seller/product/on_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.onSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:16:35,511 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:16:35,511 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:16:35,512 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:16:35,512 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:16:35,515 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-09-25 10:16:35,516 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
+2017-09-25 10:16:35,517 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+2017-09-25 10:16:35,517 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
+2017-09-25 10:16:35,518 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
+2017-09-25 10:16:35,521 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-25 10:16:35,522 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-25 10:16:35,539 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-25 10:16:35,580 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@561a3dd0: startup date [Mon Sep 25 10:16:32 CST 2017]; root of context hierarchy
+2017-09-25 10:16:35,595 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-25 10:16:35,809 - LiveReload server is running on port 35729
+2017-09-25 10:16:36,171 - Registering beans for JMX exposure on startup
+2017-09-25 10:16:36,172 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-25 10:16:36,172 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-25 10:16:36,175 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-25 10:16:36,176 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-25 10:16:36,188 - Tomcat started on port(s): 8089 (http)
+2017-09-25 10:16:36,193 - Started Application in 4.204 seconds (JVM running for 352.855)
+2017-09-25 10:18:15,622 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-25 10:18:15,628 - FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2017-09-25 10:18:19,467 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-25 10:21:27,218 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@561a3dd0: startup date [Mon Sep 25 10:16:32 CST 2017]; root of context hierarchy
+2017-09-25 10:21:27,224 - Unregistering JMX-exposed beans on shutdown
+2017-09-25 10:21:27,225 - Unregistering JMX-exposed beans
+2017-09-25 10:21:27,227 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:21:27,231 - {dataSource-3} closed
+2017-09-25 10:21:27,837 - Starting Application on MrZhang with PID 3300 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-25 10:21:27,838 - The following profiles are active: dev
+2017-09-25 10:21:27,853 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45f8bcfe: startup date [Mon Sep 25 10:21:27 CST 2017]; root of context hierarchy
+2017-09-25 10:21:28,654 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:21:28,821 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:21:28,918 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-25 10:21:28,919 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-25 10:21:28,919 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-25 10:21:28,920 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-25 10:21:29,068 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-09-25 10:21:29,437 - Tomcat initialized with port(s): 8089 (http)
+2017-09-25 10:21:29,493 - Root WebApplicationContext: initialization completed in 1640 ms
+2017-09-25 10:21:29,568 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-25 10:21:29,571 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-25 10:21:29,573 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-25 10:21:29,574 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-25 10:21:30,128 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:21:30,128 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-25 10:21:30,189 - {dataSource-4} inited
+2017-09-25 10:21:30,204 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-25 10:21:30,275 - HHH000228: Running hbm2ddl schema update
+2017-09-25 10:21:30,441 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:21:30,951 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
+2017-09-25 10:21:30,966 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-25 10:21:30,967 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
+2017-09-25 10:21:30,968 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-25 10:21:30,968 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-25 10:21:30,969 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-25 10:21:30,971 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
+2017-09-25 10:21:30,972 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
+2017-09-25 10:21:30,976 - Mapped "{[/seller/product/index],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.index(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:21:30,977 - Mapped "{[/seller/product/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:21:30,977 - Mapped "{[/seller/product/save],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.save(cn.MrZhang.form.ProductForm,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-25 10:21:30,977 - Mapped "{[/seller/product/off_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.offSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:21:30,978 - Mapped "{[/seller/product/on_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.onSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:21:30,979 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:21:30,980 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:21:30,980 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:21:30,980 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:21:30,982 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-09-25 10:21:30,982 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
+2017-09-25 10:21:30,982 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+2017-09-25 10:21:30,983 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
+2017-09-25 10:21:30,983 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
+2017-09-25 10:21:30,988 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-25 10:21:30,989 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-25 10:21:31,004 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-25 10:21:31,046 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45f8bcfe: startup date [Mon Sep 25 10:21:27 CST 2017]; root of context hierarchy
+2017-09-25 10:21:31,061 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-25 10:21:31,319 - LiveReload server is running on port 35729
+2017-09-25 10:21:31,680 - Registering beans for JMX exposure on startup
+2017-09-25 10:21:31,681 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-25 10:21:31,681 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-25 10:21:31,683 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-25 10:21:31,684 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-25 10:21:31,705 - Tomcat started on port(s): 8089 (http)
+2017-09-25 10:21:31,725 - Started Application in 4.034 seconds (JVM running for 648.386)
+2017-09-25 10:21:38,112 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-25 10:21:38,117 - FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2017-09-25 10:21:38,139 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-25 10:23:35,733 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45f8bcfe: startup date [Mon Sep 25 10:21:27 CST 2017]; root of context hierarchy
+2017-09-25 10:23:35,737 - Unregistering JMX-exposed beans on shutdown
+2017-09-25 10:23:35,738 - Unregistering JMX-exposed beans
+2017-09-25 10:23:35,739 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:23:35,742 - {dataSource-4} closed
+2017-09-25 10:23:36,433 - Starting Application on MrZhang with PID 3300 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-25 10:23:36,433 - The following profiles are active: dev
+2017-09-25 10:23:36,440 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1189b2c3: startup date [Mon Sep 25 10:23:36 CST 2017]; root of context hierarchy
+2017-09-25 10:23:37,204 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:23:37,336 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:23:37,398 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-25 10:23:37,399 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-25 10:23:37,400 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-25 10:23:37,401 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-25 10:23:37,530 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-09-25 10:23:37,947 - Tomcat initialized with port(s): 8089 (http)
+2017-09-25 10:23:38,063 - Root WebApplicationContext: initialization completed in 1623 ms
+2017-09-25 10:23:38,177 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-25 10:23:38,178 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-25 10:23:38,178 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-25 10:23:38,178 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-25 10:23:38,837 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:23:38,838 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-25 10:23:38,870 - {dataSource-5} inited
+2017-09-25 10:23:38,881 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-25 10:23:39,087 - HHH000228: Running hbm2ddl schema update
+2017-09-25 10:23:39,261 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:23:39,736 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
+2017-09-25 10:23:39,738 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-25 10:23:39,740 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
+2017-09-25 10:23:39,741 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-25 10:23:39,741 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-25 10:23:39,742 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-25 10:23:39,743 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
+2017-09-25 10:23:39,744 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
+2017-09-25 10:23:39,745 - Mapped "{[/seller/product/index],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.index(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:23:39,746 - Mapped "{[/seller/product/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:23:39,746 - Mapped "{[/seller/product/save],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.save(cn.MrZhang.form.ProductForm,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-25 10:23:39,747 - Mapped "{[/seller/product/off_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.offSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:23:39,747 - Mapped "{[/seller/product/on_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.onSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:23:39,749 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:23:39,749 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:23:39,749 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:23:39,750 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:23:39,751 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-09-25 10:23:39,752 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
+2017-09-25 10:23:39,752 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+2017-09-25 10:23:39,752 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
+2017-09-25 10:23:39,753 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
+2017-09-25 10:23:39,755 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-25 10:23:39,756 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-25 10:23:39,769 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-25 10:23:39,798 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1189b2c3: startup date [Mon Sep 25 10:23:36 CST 2017]; root of context hierarchy
+2017-09-25 10:23:39,812 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-25 10:23:40,062 - LiveReload server is running on port 35729
+2017-09-25 10:23:40,557 - Registering beans for JMX exposure on startup
+2017-09-25 10:23:40,558 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-25 10:23:40,558 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-25 10:23:40,560 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-25 10:23:40,561 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-25 10:23:40,602 - Tomcat started on port(s): 8089 (http)
+2017-09-25 10:23:40,609 - Started Application in 4.276 seconds (JVM running for 777.27)
+2017-09-25 10:24:06,321 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1189b2c3: startup date [Mon Sep 25 10:23:36 CST 2017]; root of context hierarchy
+2017-09-25 10:24:06,325 - Unregistering JMX-exposed beans on shutdown
+2017-09-25 10:24:06,326 - Unregistering JMX-exposed beans
+2017-09-25 10:24:06,330 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:24:06,336 - {dataSource-5} closed
+2017-09-25 10:24:06,892 - Starting Application on MrZhang with PID 3300 (D:\workspace\sell\target\classes started by MrZhang in D:\workspace\sell)
+2017-09-25 10:24:06,892 - The following profiles are active: dev
+2017-09-25 10:24:06,898 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c5b1d44: startup date [Mon Sep 25 10:24:06 CST 2017]; root of context hierarchy
+2017-09-25 10:24:07,677 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:24:07,779 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-25 10:24:07,849 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductInfoRepository.
+2017-09-25 10:24:07,851 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderDetailRepository.
+2017-09-25 10:24:07,852 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.OrderMasterRepository.
+2017-09-25 10:24:07,853 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.MrZhang.repository.ProductCategoryRepository.
+2017-09-25 10:24:07,999 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-09-25 10:24:08,244 - Tomcat initialized with port(s): 8089 (http)
+2017-09-25 10:24:08,271 - Root WebApplicationContext: initialization completed in 1373 ms
+2017-09-25 10:24:08,339 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-25 10:24:08,339 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-25 10:24:08,340 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-25 10:24:08,340 - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-25 10:24:08,826 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:24:08,826 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-25 10:24:08,855 - {dataSource-6} inited
+2017-09-25 10:24:08,865 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-25 10:24:08,930 - HHH000228: Running hbm2ddl schema update
+2017-09-25 10:24:09,026 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-25 10:24:09,478 - Mapped "{[/test/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.BeetlTestController.test(org.springframework.ui.Model)
+2017-09-25 10:24:09,480 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-09-25 10:24:09,481 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.detail(java.lang.String,java.lang.String)
+2017-09-25 10:24:09,481 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.List<cn.MrZhang.dto.OrderDTO>> cn.MrZhang.controller.BuyOrderController.cancel(java.lang.String,java.lang.String)
+2017-09-25 10:24:09,482 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public cn.MrZhang.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> cn.MrZhang.controller.BuyOrderController.creat(cn.MrZhang.form.OrderForm)
+2017-09-25 10:24:09,483 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public cn.MrZhang.vo.ResultVo cn.MrZhang.controller.BuyProductController.list()
+2017-09-25 10:24:09,484 - Mapped "{[/pay/notify],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.PayController.notify(java.lang.String)
+2017-09-25 10:24:09,484 - Mapped "{[/pay/create],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,org.springframework.ui.Model)
+2017-09-25 10:24:09,486 - Mapped "{[/seller/product/index],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.index(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:24:09,486 - Mapped "{[/seller/product/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:24:09,489 - Mapped "{[/seller/product/save],methods=[POST]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.save(cn.MrZhang.form.ProductForm,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-25 10:24:09,490 - Mapped "{[/seller/product/off_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.offSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:24:09,490 - Mapped "{[/seller/product/on_sale]}" onto public java.lang.String cn.MrZhang.controller.SellerProductController.onSale(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:24:09,505 - Mapped "{[/seller/order/list],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+2017-09-25 10:24:09,506 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.finished(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:24:09,506 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.detail(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:24:09,508 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.SellOrderController.cancel(java.lang.String,org.springframework.ui.Model)
+2017-09-25 10:24:09,509 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-09-25 10:24:09,510 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.authorize(java.lang.String)
+2017-09-25 10:24:09,510 - Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+2017-09-25 10:24:09,510 - Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String cn.MrZhang.controller.WechatController.qrAuthorize(java.lang.String)
+2017-09-25 10:24:09,511 - Mapped "{[/weixin/auth],methods=[GET]}" onto public void cn.MrZhang.controller.WeixinController.auth(java.lang.String)
+2017-09-25 10:24:09,514 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-25 10:24:09,514 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-25 10:24:09,530 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-25 10:24:09,606 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c5b1d44: startup date [Mon Sep 25 10:24:06 CST 2017]; root of context hierarchy
+2017-09-25 10:24:09,627 - Detected @ExceptionHandler methods in commonExceptionAdvice
+2017-09-25 10:24:09,819 - LiveReload server is running on port 35729
+2017-09-25 10:24:10,074 - Registering beans for JMX exposure on startup
+2017-09-25 10:24:10,074 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-09-25 10:24:10,075 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-25 10:24:10,077 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2017-09-25 10:24:10,078 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-09-25 10:24:10,088 - Tomcat started on port(s): 8089 (http)
+2017-09-25 10:24:10,091 - Started Application in 3.256 seconds (JVM running for 806.752)
+2017-09-25 10:24:25,151 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-25 10:24:25,158 - FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2017-09-25 10:24:25,164 - HHH000397: Using ASTQueryTranslatorFactory

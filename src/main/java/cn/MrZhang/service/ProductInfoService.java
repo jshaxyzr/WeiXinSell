@@ -40,4 +40,12 @@ public interface ProductInfoService {
     * @param cartDTOs void
     */
     void decreaseStock(List<CartDTO> cartDTOs);
+
+    /** 商品上架 */
+
+    ProductInfo onSale(String productId);
+
+    /** 商品下架 */
+
+    ProductInfo offSale(String productId);
 }

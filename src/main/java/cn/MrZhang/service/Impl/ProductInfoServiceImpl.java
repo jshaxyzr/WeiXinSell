@@ -47,6 +47,7 @@ public class ProductInfoServiceImpl implements ProductInfoService {
 
     @Override
     @Transactional
+    // 加库存
     public void increaseStock(List<CartDTO> cartDTOs) {
         // TODO Auto-generated method stub
         for (CartDTO cartDTO : cartDTOs) {
@@ -62,6 +63,7 @@ public class ProductInfoServiceImpl implements ProductInfoService {
 
     @Override
     @Transactional
+    // 扣库存
     public void decreaseStock(List<CartDTO> cartDTOs) {
         // TODO Auto-generated method stub
 
@@ -80,6 +82,37 @@ public class ProductInfoServiceImpl implements ProductInfoService {
 
         }
 
+    }
+
+    @Override
+    @Transactional
+    public ProductInfo onSale(String productId) {
+        // TODO Auto-generated method stub
+        ProductInfo productInfo = productInfoRepository.findOne(productId);
+        if (productInfo == null) {
+            throw new ServiceException("商品不存在");
+        }
+        if (productInfo.getProductStatusEnum() == ProductStatusEnum.UP) {
+            throw new ServiceException("商品已经是上架状态!");
+        }
+        productInfo.setProductStatus(ProductStatusEnum.UP.getCode());
+        ProductInfo result = productInfoRepository.save(productInfo);
+        return result;
+    }
+
+    @Override
+    public ProductInfo offSale(String productId) {
+        // TODO Auto-generated method stub
+        ProductInfo productInfo = productInfoRepository.findOne(productId);
+        if (productInfo == null) {
+            throw new ServiceException("商品不存在");
+        }
+        if (productInfo.getProductStatusEnum() == ProductStatusEnum.Down) {
+            throw new ServiceException("商品已经是上架状态!");
+        }
+        productInfo.setProductStatus(ProductStatusEnum.Down.getCode());
+        ProductInfo result = productInfoRepository.save(productInfo);
+        return result;
     }
 
 }

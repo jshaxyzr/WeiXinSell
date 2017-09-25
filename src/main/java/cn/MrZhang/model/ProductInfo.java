@@ -7,6 +7,13 @@ import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import org.hibernate.annotations.DynamicInsert;
+import org.hibernate.annotations.DynamicUpdate;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import cn.MrZhang.enums.ProductStatusEnum;
+import cn.MrZhang.util.EnumUtil;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -23,6 +30,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@DynamicUpdate
+@DynamicInsert
 public class ProductInfo implements Serializable {
     @Id
     private String productId;
@@ -43,9 +52,9 @@ public class ProductInfo implements Serializable {
      */
     private String productIcon;
     /**
-     * 状态  0 正常  1  下架
+     * 状态  0 正常  1  下架 默认行增初始化值为0
      */
-    private Integer productStatus;
+    private Integer productStatus = ProductStatusEnum.UP.getCode();;
     /**
      * 类目编号
      */
@@ -54,5 +63,10 @@ public class ProductInfo implements Serializable {
     private Date updateTime;
 
     private Date createdTime;
+
+    @JsonIgnore
+    public ProductStatusEnum getProductStatusEnum() {
+        return EnumUtil.getByCode(productStatus, ProductStatusEnum.class);
+    }
 
 }
