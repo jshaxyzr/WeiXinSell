@@ -35,7 +35,7 @@ import cn.MrZhang.vo.ResultVo;
  * @version V1.0
  */
 @EnableWebMvc
-@RestControllerAdvice
+@RestControllerAdvice // 指定所有 RestController 注解的异常进行处理
 public class CommonExceptionAdvice {
 
     private static Logger logger = Logger.getLogger(CommonExceptionAdvice.class);
