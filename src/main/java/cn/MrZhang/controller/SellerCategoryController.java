@@ -48,7 +48,7 @@ public class SellerCategoryController {
         List<ProductCategory> productCategories = productCategoryService.findAll();
         map.put("productCategories", productCategories);
         model.addAllAttributes(map);
-        return "/category/list.html";
+        return "/category/list";
     }
 
     /**
@@ -67,7 +67,7 @@ public class SellerCategoryController {
             map.put("category", productCategory);
             model.addAllAttributes(map);
         }
-        return "/category/index.html";
+        return "/category/index";
     }
 
     /**
@@ -86,7 +86,7 @@ public class SellerCategoryController {
             map.put("msg", bindingResult.getFieldError().getDefaultMessage());
             map.put("url", "/seller/category/index");
             model.addAllAttributes(map);
-            return "/common/error.html";
+            return "/common/error";
         }
 
         ProductCategory category = new ProductCategory();
@@ -101,12 +101,12 @@ public class SellerCategoryController {
             map.put("msg", e.getMessage());
             map.put("url", "/seller/category/index");
             model.addAllAttributes(map);
-            return "common/error.html";
+            return "common/error";
         }
 
         map.put("url", "/seller/category/list");
         model.addAllAttributes(map);
-        return "/common/success.html";
+        return "/common/success";
     }
 
 }

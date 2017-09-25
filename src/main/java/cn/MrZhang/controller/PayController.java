@@ -51,7 +51,7 @@ public class PayController {
         map.put("payResponse", payResponse);
         map.put("returnUrl", returnUrl);
         model.addAttribute(map);
-        return "/pay/create.html";
+        return "/pay/create";
     }
 
     /**
@@ -63,6 +63,6 @@ public class PayController {
         payService.notify(notifyData);
 
         // 返回给微信处理结果
-        return "/pay/success.html";
+        return "/pay/success";
     }
 }

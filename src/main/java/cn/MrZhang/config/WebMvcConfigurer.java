@@ -21,11 +21,20 @@ public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
 
     private final Logger logger = Logger.getLogger(WebMvcConfigurer.class);
 
+    // 页面应用 要加上 /static/css/xxx.css 指定了 static 开头的路径 指向 classpath 下static 文件夹
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
 
         registry.addResourceHandler("/static/**").addResourceLocations(ResourceUtils.CLASSPATH_URL_PREFIX + "/static/");
         super.addResourceHandlers(registry);
     }
+
+    // /** 时 所有静态文件都 指向了 classpath 下的 static 文件夹 页面配置 “/css/xxx.css”
+    // @Override
+    // public void addResourceHandlers(ResourceHandlerRegistry registry) {
+    //
+    // registry.addResourceHandler("/**").addResourceLocations(ResourceUtils.CLASSPATH_URL_PREFIX + "/static/");
+    // super.addResourceHandlers(registry);
+    // }
 
 }

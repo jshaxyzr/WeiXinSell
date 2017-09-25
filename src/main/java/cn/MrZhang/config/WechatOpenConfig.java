@@ -9,6 +9,14 @@ import me.chanjar.weixin.mp.api.WxMpInMemoryConfigStorage;
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.impl.WxMpServiceImpl;
 
+/**
+ * 
+ * Title:WechatOpenConfig
+ * @Description: TODO 微信开放平台配置
+ * @author MrZhang
+ * @date 2017年9月25日 上午11:24:13 
+ * @version V1.0
+ */
 @Component
 public class WechatOpenConfig {
 

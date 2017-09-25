@@ -43,7 +43,7 @@ public class SellOrderController {
         model.addAttribute("orderDTOPage", orderDTOPage);
         model.addAttribute("currentPage", pageNo);
         model.addAttribute("size", pageSize);
-        return "/order/list.html";
+        return "/order/list";
     }
 
     /**
@@ -72,7 +72,7 @@ public class SellOrderController {
         map.put("msg", "订单取消成功");
         map.put("url", "/seller/order/list");
         model.addAllAttributes(map);
-        return "/common/success.html";
+        return "/common/success";
     }
 
     /**
@@ -94,12 +94,12 @@ public class SellOrderController {
             map.put("msg", e.getMessage());
             map.put("url", "/seller/order/list");
             model.addAllAttributes(map);
-            return "/common/error.html";
+            return "/common/error";
         }
 
         map.put("orderDTO", orderDTO);
         model.addAllAttributes(map);
-        return "/order/detail.html";
+        return "/order/detail";
     }
 
     /**
@@ -121,12 +121,12 @@ public class SellOrderController {
             map.put("msg", e.getMessage());
             map.put("url", "/seller/order/list");
             model.addAllAttributes(map);
-            return "/common/error.html";
+            return "/common/error";
         }
 
         map.put("msg", "订单完结成功");
         map.put("url", "/seller/order/list");
         model.addAllAttributes(map);
-        return "/common/success.html";
+        return "/common/success";
     }
 }

@@ -61,7 +61,7 @@ public class SellerProductController {
         map.put("currentPage", page);
         map.put("size", size);
         model.addAllAttributes(map);
-        return "/product/list.html";
+        return "/product/list";
     }
 
     /**
@@ -79,12 +79,12 @@ public class SellerProductController {
             map.put("msg", e.getMessage());
             map.put("url", "/sell/seller/product/list");
             model.addAllAttributes(map);
-            return "/common/error.html";
+            return "/common/error";
         }
 
         map.put("url", "/seller/product/list");
         model.addAllAttributes(map);
-        return "/common/success.html";
+        return "/common/success";
     }
 
     /**
@@ -102,12 +102,12 @@ public class SellerProductController {
             map.put("msg", e.getMessage());
             map.put("url", "/sell/seller/product/list");
             model.addAllAttributes(map);
-            return "/common/error.html";
+            return "/common/error";
         }
 
         map.put("url", "/seller/product/list");
         model.addAllAttributes(map);
-        return "/common/success.html";
+        return "/common/success";
     }
 
     @GetMapping("/index")
@@ -122,7 +122,7 @@ public class SellerProductController {
         List<ProductCategory> categoryList = productCategoryService.findAll();
         map.put("categoryList", categoryList);
         model.addAllAttributes(map);
-        return "/product/index.html";
+        return "/product/index";
     }
 
     /**
@@ -139,7 +139,7 @@ public class SellerProductController {
             map.put("msg", bindingResult.getFieldError().getDefaultMessage());
             map.put("url", "/seller/product/index");
             model.addAllAttributes(map);
-            return "/common/error.html";
+            return "/common/error";
         }
 
         ProductInfo productInfo = new ProductInfo();
@@ -156,11 +156,11 @@ public class SellerProductController {
             map.put("msg", e.getMessage());
             map.put("url", "/seller/product/index");
             model.addAllAttributes(map);
-            return "common/error.html";
+            return "common/error";
         }
 
         map.put("url", "/seller/product/list");
         model.addAllAttributes(map);
-        return "/common/success.html";
+        return "/common/success";
     }
 }
