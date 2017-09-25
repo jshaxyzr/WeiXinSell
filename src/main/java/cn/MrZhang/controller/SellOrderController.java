@@ -6,6 +6,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -36,7 +37,8 @@ public class SellOrderController {
     @GetMapping("/list")
     public String list(@RequestParam(value = "pageNo", defaultValue = "1") Integer pageNo,
             @RequestParam(value = "pageSize", defaultValue = "3") Integer pageSize, Model model) {
-        PageRequest request = new PageRequest(pageNo - 1, pageSize);
+        Sort sort = new Sort(Sort.Direction.DESC, "createTime");
+        PageRequest request = new PageRequest(pageNo - 1, pageSize, sort);
 
         Page<OrderDTO> orderDTOPage = orderService.findList(request);
 

@@ -58,20 +58,22 @@
 						<ul class="pagination pull-right">
 
 							<%if(currentPage <=1){%>
-							<li class="disabled"><a href="#">上一页</a></li> <%}%>
-							<%else{%><li><a
+							<li class="disabled"><a href="#">上一页</a></li> <%}%> <%else{%>
+							<li><a
 								href="/seller/order/list?pageNo=${currentPage-1}&pageSize=${size}">上一页</a></li><%}%>
-							<%for(var i=1;i<orderDTOPage.totalPages+1;i++){%>
-								<%if(i==currentPage){%>								
-								<li class="disabled"><a href="#">${i}</a></li>
-								<%}else{%>
-								 <li><a href="/seller/order/list?pageNo=${i}&pageSize=${size}">${i}</a></li>
-								<%}}%>
-								
-							<%if(currentPage >=orderDTOPage.totalPages){%>
+							<%for(var i=1;i
+							<orderDTOPage.totalPages+1;i++){%>
+							<%if(i==currentPage){%>
+							<li class="disabled"><a href="#">${i}</a></li>
+							<%}else{%>
+							<li><a
+								href="/seller/order/list?pageNo=${i}&pageSize=${size}">${i}</a></li>
+							<%}}%> <%if(currentPage >=orderDTOPage.totalPages){%>
 							<li class="disabled"><a href="#">上一页</a></li>
-							<%}else{%><li><a
-								href="/seller/order/list?pageNo=${currentPage+1}&pageSize=${size}">下一页</a></li><%}%>
+							<%}else{%>
+							<li><a
+								href="/seller/order/list?pageNo=${currentPage+1}&pageSize=${size}">下一页</a></li>
+							<%}%> 
 						</ul>
 					</div>
 				</div>
@@ -89,7 +91,7 @@
 						aria-hidden="true">×</button>
 					<h4 class="modal-title" id="myModalLabel">提醒</h4>
 				</div>
-				<div class="modal-body">你有新的订单</div>
+				<div class="modal-body" id="message"></div>
 				<div class="modal-footer">
 					<button
 						onclick="javascript:document.getElementById('notice').pause()"
@@ -111,7 +113,7 @@
 	<script>
 	var websocket = null;
 	if ('WebSocket' in window) {
-	    websocket = new WebSocket('ws://sell.natapp4.cc/sell/webSocket');
+	    websocket = new WebSocket('ws://127.0.0.1:8089/webSocket');
 	} else {
 	    alert('该浏览器不支持websocket!');
 	}
@@ -126,6 +128,8 @@
 
 	websocket.onmessage = function(event) {
 	    console.log('收到消息:' + event.data)
+	    var insertText = document.createTextNode('您有一个新的订单：'+event.data);
+		document.getElementById('message').appendChild(insertText);
 	    //弹窗提醒, 播放音乐
 	    $('#myModal').modal('show');
 

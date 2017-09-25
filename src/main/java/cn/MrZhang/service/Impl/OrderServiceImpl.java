@@ -30,6 +30,7 @@ import cn.MrZhang.service.OrderDetailService;
 import cn.MrZhang.service.OrderService;
 import cn.MrZhang.service.ProductInfoService;
 import cn.MrZhang.service.PushMessageService;
+import cn.MrZhang.service.WebSocket;
 import cn.MrZhang.util.IDUtils;
 import lombok.extern.log4j.Log4j;
 
@@ -50,6 +51,8 @@ public class OrderServiceImpl implements OrderService {
     private OrderDetailRepository orderDetailRepository;
     @Autowired
     private PushMessageService pushMessageService;
+    @Autowired
+    private WebSocket webSocket;
 
     @Override
     @Transactional
@@ -91,6 +94,8 @@ public class OrderServiceImpl implements OrderService {
         List<CartDTO> cartDTOs = orderDTO.getOrderDetailList().stream()
                 .map(e -> new CartDTO(e.getProductId(), e.getProductQuantity())).collect(Collectors.toList());
         productInfoService.decreaseStock(cartDTOs);
+        // 发送websocket消息
+        webSocket.sendMessage(orderDTO.getOrderId());
         return orderDTO;
     }
 
@@ -214,7 +219,6 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public Page<OrderDTO> findList(Pageable pageable) {
         // TODO Auto-generated method stub
-
         Page<OrderMaster> page = orderMasterRepository.findAll(pageable);
 
         List<OrderDTO> orderDTOs = OrderMaster2OrderDTO.convert(page.getContent());
