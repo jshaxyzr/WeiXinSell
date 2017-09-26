@@ -41,7 +41,7 @@
 									<td>${orderDTO.orderAmount}</td>
 									<td>${@orderDTO.getOrderStatusEnum().getMessage()}</td>
 									<td>${@orderDTO.getPayStatusEnum().getMessage()}</td>
-									<td>${orderDTO.createTime}</td>
+									<td>${orderDTO.createTime,dateFormat="yyyy-MM-dd HH:mm:ss"}</td>
 									<td><a
 										href="/seller/order/detail?orderId=${orderDTO.orderId}">详情</a></td>
 									<td><%if(@orderDTO.getOrderStatusEnum().getMessage()==
@@ -96,13 +96,13 @@
 					<button
 						onclick="javascript:document.getElementById('notice').pause()"
 						type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-					<button onclick="location.reload()" type="button"
+					<button onclick="show()" type="button"
 						class="btn btn-primary">查看新的订单</button>
 				</div>
 			</div>
 		</div>
 	</div>
-
+	<input hidden id="orderId" type="text" name="orderId" value="">
 	<!-- 播放音乐 -->
 	<audio id="notice" loop="loop">
 		<source src="/static/mp3/song.mp3" type="audio/mpeg" />
@@ -128,8 +128,14 @@
 
 	websocket.onmessage = function(event) {
 	    console.log('收到消息:' + event.data)
-	    var insertText = document.createTextNode('您有一个新的订单：'+event.data);
-		document.getElementById('message').appendChild(insertText);
+	    var insertText = document.createTextNode('您有一个新的订单：' + event.data);
+	    document.getElementById('message').appendChild(insertText);
+	    var value = document.getElementById('orderId');
+	    if (value.value != "") {
+		value.value = ""
+	    } else {
+		value.value = event.data;
+	    }
 	    //弹窗提醒, 播放音乐
 	    $('#myModal').modal('show');
 
@@ -142,6 +148,11 @@
 
 	window.onbeforeunload = function() {
 	    websocket.close();
+	}
+	
+	function show(){
+	    
+	    window.open('http://127.0.0.1:8089/seller/order/detail?orderId='+document.getElementById('orderId').value);
 	}
     </script>
 </body>

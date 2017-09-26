@@ -41,8 +41,8 @@
 									<td>${productInfo.productStock}</td>
 									<td>${productInfo.productDescription}</td>
 									<td>${productInfo.categoryType}</td>
-									<td>${productInfo.createdTime}</td>
-									<td>${productInfo.updateTime}</td>
+									<td>${productInfo.createdTime,dateFormat="yyyy-MM-dd HH:mm:ss"}</td>
+									<td>${productInfo.updateTime,dateFormat="yyyy-MM-dd HH:mm:ss"}</td>
 									<td><a
 										href="/seller/product/index?productId=${productInfo.productId}">修改</a></td>
 									<td>
