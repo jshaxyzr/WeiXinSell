@@ -212,4 +212,20 @@ public class RedisServiceImpl implements RedisService {
         return zset.rangeByScore(key, scoure, scoure1);
     }
 
+    @Override
+    public boolean setIfAbsent(String key, String value) {
+        // TODO Auto-generated method stub
+        Boolean result = redisTemplate.opsForValue().setIfAbsent(key, value);
+        return result;
+    }
+
+    @Override
+    public Object getAndSet(String key, String value) {
+        // TODO Auto-generated method stub
+        ValueOperations<Serializable, Object> operations = redisTemplate.opsForValue();
+        // key 原来的值
+        Object result = operations.getAndSet(key, value);
+        return result;
+    }
+
 }

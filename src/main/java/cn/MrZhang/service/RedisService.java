@@ -35,4 +35,10 @@ public interface RedisService {
 
     public Set<Object> rangeByScore(String key, double scoure, double scoure1);
 
+    /** 加锁 setnx  可以设置返回true*/
+    public boolean setIfAbsent(String key, String value);
+
+    /**  先取值 在赋值 返回的是取出来的值  key的值变为value  */
+    public Object getAndSet(String key, String value);
+
 }
