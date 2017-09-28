@@ -9,6 +9,7 @@ import javax.validation.Valid;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Controller;
@@ -133,6 +134,7 @@ public class SellerProductController {
     * @return
     */
     @PostMapping("/save")
+    @CacheEvict(value = "product", allEntries = true) // 删除所有 product 的缓存
     public String save(@Valid ProductForm form, BindingResult bindingResult, Model model) {
         Map<String, Object> map = new HashMap<>();
         if (bindingResult.hasErrors()) {

@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -37,6 +38,7 @@ public class BuyProductController {
     private ProductCategoryService productCategoryService;
 
     @GetMapping("/list")
+    @Cacheable("product") // 缓存是个ZSet 集合（product为 zset key ）
     public ResultVo list() {
 
         // 查询所有上架商品

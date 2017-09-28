@@ -1,5 +1,6 @@
 package cn.MrZhang.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -18,7 +19,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @DynamicUpdate
 @DynamicInsert
-public class SellerInfo {
+public class SellerInfo implements Serializable {
 
     @Id
     private String sellerId;

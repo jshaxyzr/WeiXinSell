@@ -1,5 +1,6 @@
 package cn.MrZhang.dto;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
@@ -27,7 +28,7 @@ import lombok.Data;
 // 只包含非空属性 为空时不进行序列化 返回
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Data
-public class OrderDTO {
+public class OrderDTO implements Serializable {
 
     private String orderId;
     /**
@@ -54,7 +55,7 @@ public class OrderDTO {
      * 订单支付状态
      */
     private Integer payStatus;
-    // 指定按哪个类进行序列化
+    // 指定按哪个类进行序列化 redis 进行缓存存储的时候 会报错 因为redis配置中指定了序列化方式 Jackson2JsonRedisSerializer
     @JsonSerialize(using = Date2LongSerializer.class)
     private Date createTime;
     @JsonSerialize(using = Date2LongSerializer.class)

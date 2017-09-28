@@ -80,15 +80,6 @@ public class RedisConfig extends CachingConfigurerSupport {
         };
     }
 
-    @SuppressWarnings("rawtypes")
-    @Bean
-    public CacheManager cacheManager(RedisTemplate redisTemplate) {
-        RedisCacheManager rcm = new RedisCacheManager(redisTemplate);
-        // 设置缓存过期时间
-        // rcm.setDefaultExpiration(1200);//秒
-        return rcm;
-    }
-
     @Bean
     public RedisTemplate<String, String> redisTemplate(JedisConnectionFactory factory) {
         RedisTemplate<String, String> redisTemplate = new RedisTemplate<String, String>();
@@ -96,6 +87,15 @@ public class RedisConfig extends CachingConfigurerSupport {
         redisTemplate.afterPropertiesSet();
         setSerializer(redisTemplate);
         return redisTemplate;
+    }
+
+    @SuppressWarnings("rawtypes")
+    @Bean
+    public CacheManager cacheManager(RedisTemplate redisTemplate) {
+        RedisCacheManager rcm = new RedisCacheManager(redisTemplate);
+        // 设置缓存过期时间（通过注解生成的缓存）
+        rcm.setDefaultExpiration(1200);// 秒
+        return rcm;
     }
 
     private void setSerializer(RedisTemplate<String, String> template) {
