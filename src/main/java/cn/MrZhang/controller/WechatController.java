@@ -40,6 +40,7 @@ public class WechatController {
         // 1. 配置
         // 2. 调用方法
         String url = projectUrlConfig.getWechatMpAuthorize() + "/wechat/userInfo";
+        // String url = "http://1856273fk3.iok.la/wechat/userInfo";
         String redirectUrl;
         redirectUrl = wxMpService.oauth2buildAuthorizationUrl(url, WxConsts.OAUTH2_SCOPE_BASE, URLEncoder.encode(returnUrl));
 
@@ -57,13 +58,14 @@ public class WechatController {
         }
 
         String openId = wxMpOAuth2AccessToken.getOpenId();
+        String url = returnUrl + "?openid=" + openId;
 
-        return "redirect:" + returnUrl + "?openid=" + openId;
+        return "redirect:" + url;
     }
 
     @GetMapping("/qrAuthorize")
     public String qrAuthorize(@RequestParam("returnUrl") String returnUrl) {
-        String url = projectUrlConfig.getWechatOpenAuthorize() + "/sell/wechat/qrUserInfo";
+        String url = projectUrlConfig.getWechatOpenAuthorize() + "/wechat/qrUserInfo";
         String redirectUrl;
         try {
             redirectUrl = wxOpenService.buildQrConnectUrl(url, WxConsts.QRCONNECT_SCOPE_SNSAPI_LOGIN,
