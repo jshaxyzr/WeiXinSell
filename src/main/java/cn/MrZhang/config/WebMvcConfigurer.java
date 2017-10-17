@@ -20,6 +20,10 @@ import cn.MrZhang.interceptor.LoginInterceptor;
  * @date 2017年9月22日 下午5:15:45 
  * @version V1.0
  */
+/*
+ * @EnableWebMvc 开启Web MVC的配置支持。 会自动覆盖了官方给出的/static,/public,META-INF/resources,/resources等存放静态资源的目录。
+ * 而将静态资源定位于src/main/webapp。当需要重新定义好资源所在目录时，则需要主动添加上述的那个配置类， 来Override addResourceHandlers方法。
+ */
 @EnableWebMvc
 @Configuration
 public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
@@ -29,6 +33,7 @@ public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
     @Value("${spring.profiles.active}")
     private String env;// 当前激活的配置文件
 
+    // 自定义 springboot 静态文件配置
     // 页面应用 要加上 /static/css/xxx.css 指定了 static 开头的路径 指向 classpath 下static 文件夹
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
