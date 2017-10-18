@@ -30,7 +30,7 @@ import cn.MrZhang.service.OrderDetailService;
 import cn.MrZhang.service.OrderService;
 import cn.MrZhang.service.ProductInfoService;
 import cn.MrZhang.service.PushMessageService;
-import cn.MrZhang.service.WebSocket;
+import cn.MrZhang.service.WebSocketService;
 import cn.MrZhang.util.IDUtils;
 import lombok.extern.log4j.Log4j;
 
@@ -52,7 +52,7 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private PushMessageService pushMessageService;
     @Autowired
-    private WebSocket webSocket;
+    private WebSocketService webSocket;
 
     @Override
     @Transactional
